@@ -1,0 +1,41 @@
+name: Deploy to Railway
+
+# Runs after the "Test" workflow finishes successfully on main/master, so a
+# broken build never reaches Railway. Can also be triggered manually from
+# the Actions tab (useful for redeploying without a new commit).
+on:
+  workflow_run:
+    workflows: ["Test"]
+    types: [completed]
+    branches: [main, master]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    # Only deploy if: triggered manually, OR the Test workflow it's chained
+    # to actually succeeded (not just completed - a failed test run must not deploy).
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Install Railway CLI
+        run: npm install -g @railway/cli
+
+      - name: Deploy backend to Railway
+        env:
+          # Project token from https://railway.com/project/<id>/settings/tokens
+          # Add it as a repo secret: Settings -> Secrets and variables -> Actions
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+        run: |
+          railway up \
+            --service "${{ vars.RAILWAY_SERVICE_NAME }}" \
+            --path-as-root backend \
+            --ci
