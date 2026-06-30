@@ -1,0 +1,5 @@
+2026-06-30 13:54:56.927 | INFO     | __main__:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-06-30 14:00:20.559 | WARNING  | __main__:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-06-30 14:18:08.449 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:54:55.204 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:55:19.797 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
