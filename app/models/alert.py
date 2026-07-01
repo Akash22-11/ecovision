@@ -1,5 +1,6 @@
 """Alert model: municipality alerts generated from high-risk hotspots."""
 
+
 from datetime import datetime
 
 from sqlalchemy import DateTime, Enum, ForeignKey, String, Text
