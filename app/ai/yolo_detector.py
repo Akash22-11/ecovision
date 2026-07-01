@@ -16,6 +16,7 @@ _model_cache: dict[str, Any] = {}
 
 def _load_model():
     """Lazily load and cache the YOLOv8 model. Returns None if unavailable."""
+    
     if "model" in _model_cache:
         return _model_cache["model"]
 
@@ -29,19 +30,20 @@ def _load_model():
         return None
 
     try:
-        from ultralytics import YOLO  # imported lazily: heavy optional dependency
+        from ultralytics import YOLO        # imported lazily: heavy optional dependency
 
         model = YOLO(str(model_path))
         _model_cache["model"] = model
         logger.info(f"Loaded YOLOv8 pollution model from {model_path}")
         return model
-    except Exception as exc:  # noqa: BLE001 - we want any load failure to degrade gracefully
+    except Exception as exc:               # noqa: BLE001 - we want any load failure to degrade gracefully
         logger.error(f"Failed to load YOLOv8 model ({exc}). Falling back to mock mode.")
         _model_cache["model"] = None
         return None
 
 
 def detect_pollution(image_path: str) -> dict[str, Any]:
+  
     """
     Run pollution detection on an image.
 
@@ -56,6 +58,7 @@ def detect_pollution(image_path: str) -> dict[str, Any]:
             "mock": bool,
         }
     """
+    
     model = _load_model()
 
     if model is None:
