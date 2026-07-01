@@ -1,6 +1,6 @@
 """User model: citizens and municipality admins."""
 
-from datetime import datetime
+from datetime import datetime, timezone
 
 from sqlalchemy import DateTime, Enum, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -19,9 +19,9 @@ class User(Base):
     role: Mapped[UserRole] = mapped_column(
         Enum(UserRole, name="user_role"), default=UserRole.CITIZEN, nullable=False
     )
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=lambda: datetime.now(timezone.utc).replace(tzinfo=None), nullable=False)
+
     reports = relationship("PollutionReport", back_populates="reporter", cascade="all, delete-orphan")
 
-    
     def __repr__(self) -> str:
         return f"<User id={self.id} email={self.email} role={self.role}>"
