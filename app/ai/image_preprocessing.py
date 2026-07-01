@@ -13,6 +13,7 @@ from app.utils.logger import logger
 # Standard input size most YOLOv8 export configs expect; the model itself
 # will internally letterbox/resize again, this just keeps very large
 # citizen-uploaded photos from blowing up memory/latency.
+
 MAX_DIMENSION = 1280
 
 
