@@ -1,9 +1,5 @@
 """
 Hotspot detection using DBSCAN clustering over recent pollution reports.
-
-Clusters are formed purely on geographic proximity (haversine distance via
-a precomputed distance matrix), then each cluster's risk score blends
-cluster size and the average severity/confidence of its member reports.
 """
 
 from dataclasses import dataclass
@@ -23,9 +19,8 @@ _SEVERITY_WEIGHT = {
 
 
 @dataclass
-class ReportPoint:
-    """Minimal view of a PollutionReport needed for clustering."""
-
+class ReportPoint:            #view
+    
     report_id: int
     latitude: float
     longitude: float
@@ -43,7 +38,9 @@ class HotspotCluster:
 
 
 def _haversine_distance_matrix(points: list[ReportPoint]) -> np.ndarray:
+  
     """Build an NxN haversine distance matrix (in km) for DBSCAN's precomputed metric."""
+    
     n = len(points)
     matrix = np.zeros((n, n))
     for i in range(n):
@@ -61,6 +58,7 @@ def detect_hotspots(
     eps_km: float = HOTSPOT_DBSCAN_EPS_KM,
     min_samples: int = HOTSPOT_DBSCAN_MIN_SAMPLES,
 ) -> list[HotspotCluster]:
+   
     """
     Run DBSCAN over report locations and return one HotspotCluster per
     non-noise cluster found.
@@ -70,6 +68,7 @@ def detect_hotspots(
         eps_km: neighborhood radius in kilometers.
         min_samples: minimum points required to form a dense cluster.
     """
+    
     if len(points) < min_samples:
         logger.info(f"Not enough reports ({len(points)}) to form a hotspot (need >= {min_samples}).")
         return []
@@ -81,7 +80,7 @@ def detect_hotspots(
     clusters: dict[int, list[ReportPoint]] = {}
     for label, point in zip(labels, points):
         if label == -1:
-            continue  # noise point, not part of any cluster
+            continue                          # noise point, not part of any cluster
         clusters.setdefault(label, []).append(point)
 
     hotspots: list[HotspotCluster] = []
