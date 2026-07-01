@@ -20,8 +20,8 @@ class User(Base):
         Enum(UserRole, name="user_role"), default=UserRole.CITIZEN, nullable=False
     )
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False)
-
     reports = relationship("PollutionReport", back_populates="reporter", cascade="all, delete-orphan")
 
+    
     def __repr__(self) -> str:
         return f"<User id={self.id} email={self.email} role={self.role}>"
