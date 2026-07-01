@@ -43,6 +43,7 @@ def draw_detections(
     labels: list[str],
     confidences: list[float],
 ) -> np.ndarray:
+   
     """Draw bounding boxes + labels onto a copy of the image for the annotated output."""
     annotated = image.copy()
     for (x1, y1, x2, y2), label, conf in zip(boxes, labels, confidences):
