@@ -11,7 +11,6 @@ from app.services.auth_service import authenticate_user, build_token_for_user, r
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
-
 @router.post(
     "/register",
     response_model=TokenResponse,
@@ -42,5 +41,6 @@ def login(payload: UserLoginRequest, db: Session = Depends(get_db)) -> TokenResp
     response_model=UserResponse,
     summary="Get the current authenticated user's profile",
 )
+
 def profile(current_user: User = Depends(get_current_user)) -> UserResponse:
     return UserResponse.model_validate(current_user)
