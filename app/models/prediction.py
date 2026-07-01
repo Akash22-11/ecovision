@@ -1,6 +1,8 @@
 """Prediction model: stored AQI forecasts, used to build the historical graph."""
 
-from datetime import datetime
+from datetime import datetime, timezone
+...
+datetime.now(timezone.utc)
 
 from sqlalchemy import DateTime, Enum, Float, String
 from sqlalchemy.orm import Mapped, mapped_column
@@ -25,7 +27,7 @@ class Prediction(Base):
     )
 
     prediction_time: Mapped[datetime] = mapped_column(DateTime, nullable=False)
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.now(timezone.utc), nullable=False, index=True)
 
     def __repr__(self) -> str:
         return f"<Prediction id={self.id} aqi={self.predicted_aqi} at={self.prediction_time}>"
