@@ -26,5 +26,6 @@ class Hotspot(Base):
 
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False, index=True)
 
+    
     def __repr__(self) -> str:
         return f"<Hotspot id={self.id} risk={self.risk_score} size={self.cluster_size}>"
