@@ -60,7 +60,7 @@ def predict_next_24h_aqi(
 
     if model is None:
         predicted_aqi = _heuristic_prediction(aqi, pm25, pm10, wind_speed)
-        confidence_score = 0.55  # lower confidence to signal this is a non-ML fallback
+        confidence_score = 0.55           # lower confidence to signal this is a non-ML fallback
     else:
         predicted_aqi = float(model.predict(features)[0])
         confidence_score = _estimate_confidence(model, features)
@@ -75,11 +75,10 @@ def predict_next_24h_aqi(
 
 
 def _heuristic_prediction(aqi: float, pm25: float, pm10: float, wind_speed: float) -> float:
-    """
-    Simple physically-motivated fallback used only when no trained model exists:
-    particulate load pushes AQI up, wind disperses it down.
-    """
-    particulate_pressure = (pm25 * 1.2 + pm10 * 0.8) / 2
+    
+  #Simple physically-motivated fallback
+  
+  particulate_pressure = (pm25 * 1.2 + pm10 * 0.8) / 2
     dispersion_relief = wind_speed * 3.5
     return aqi * 0.6 + particulate_pressure * 0.4 - dispersion_relief * 0.1
 
