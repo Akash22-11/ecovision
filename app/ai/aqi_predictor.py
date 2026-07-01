@@ -17,7 +17,7 @@ FEATURE_ORDER = ["aqi", "pm25", "pm10", "temperature", "humidity", "wind_speed"]
 
 def _load_model():
   
-    if "model" in _model_cache:
+    if "model" in _model_cache:          #Lazily load and cache
         return _model_cache["model"]
 
     model_path = Path(settings.AQI_MODEL_PATH)
