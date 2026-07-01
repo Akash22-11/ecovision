@@ -84,16 +84,14 @@ def _heuristic_prediction(aqi: float, pm25: float, pm10: float, wind_speed: floa
 
 
 def _estimate_confidence(model, features: pd.DataFrame) -> float:
-    """
-    For a RandomForestRegressor, use agreement across individual trees as a
-    proxy for prediction confidence: lower variance among trees -> higher confidence.
-    """
+    
     try:
         feature_values = features.values
         tree_predictions = [tree.predict(feature_values)[0] for tree in model.estimators_]
         spread = max(tree_predictions) - min(tree_predictions)
-        # Normalize: a 0 spread -> confidence 0.99; a >=100 AQI-point spread -> confidence 0.5
+       
+      # Normalize: a 0 spread -> confidence 0.99; a >=100 AQI-point spread -> confidence 0.5
         confidence = 0.99 - min(spread / 100, 0.49)
         return confidence
-    except Exception:  # noqa: BLE001 - non-RandomForest models won't have .estimators_
+    except Exception:  
         return 0.75
