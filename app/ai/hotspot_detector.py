@@ -110,7 +110,7 @@ def _compute_risk_score(points: list[ReportPoint]) -> float:
     - average severity weight of member reports
     - average detection confidence
     """
-    size_score = min(len(points) / 10, 1.0)  # saturates at 10+ reports
+    size_score = min(len(points) / 10, 1.0)                 # saturates at 10+ reports
     severity_score = sum(_SEVERITY_WEIGHT[p.severity] for p in points) / len(points)
     confidence_score = sum(p.confidence for p in points) / len(points)
 
@@ -119,6 +119,7 @@ def _compute_risk_score(points: list[ReportPoint]) -> float:
 
 
 if __name__ == "__main__":
+    
     # 1. Create some dummy pollution reports (close to each other)
     test_points = [
         ReportPoint(report_id=1, latitude=28.7041, longitude=77.1025, severity=SeverityLevel.HIGH, confidence=0.9),
@@ -128,10 +129,12 @@ if __name__ == "__main__":
         ReportPoint(report_id=4, latitude=18.9220, longitude=72.8347, severity=SeverityLevel.LOW, confidence=0.5),
     ]
 
+    
     # 2. Run the detector
     print("Running hotspot detection...")
     detected_hotspots = detect_hotspots(test_points, eps_km=5.0, min_samples=2)
 
+    
     # 3. Print the results
     print(f"\nFound {len(detected_hotspots)} hotspot(s):")
     for hotspot in detected_hotspots:
