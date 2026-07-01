@@ -1,10 +1,4 @@
-"""
-AQI predictor: loads a trained Random Forest regression model (see
-ml/train.py) and predicts AQI 24 hours ahead from current sensor readings.
-
-Falls back to a simple heuristic ("mock mode") if no trained model file is
-found, so the API keeps functioning before `ml/train.py` has been run.
-"""
+" AQI predictor: "
 
 import pickle
 from pathlib import Path
