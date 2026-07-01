@@ -35,7 +35,8 @@ def _load_model():
         _model_cache["model"] = model
         logger.info(f"Loaded AQI prediction model from {model_path}")
         return model
-    except Exception as exc:  # noqa: BLE001
+  
+    except Exception as exc:  
         logger.error(f"Failed to load AQI model ({exc}). Falling back to mock prediction.")
         _model_cache["model"] = None
         return None
@@ -44,12 +45,14 @@ def _load_model():
 def predict_next_24h_aqi(
     aqi: float, pm25: float, pm10: float, temperature: float, humidity: float, wind_speed: float
 ) -> dict[str, Any]:
-    """
+    
+  """
     Predict AQI 24 hours ahead from current sensor readings.
 
     Returns:
         {"predicted_aqi": float, "risk_level": RiskLevel, "confidence_score": float}
-    """
+  """
+  
     model = _load_model()
     features = pd.DataFrame(
         [[aqi, pm25, pm10, temperature, humidity, wind_speed]], columns=FEATURE_ORDER
