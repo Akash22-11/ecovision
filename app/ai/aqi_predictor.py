@@ -16,7 +16,7 @@ FEATURE_ORDER = ["aqi", "pm25", "pm10", "temperature", "humidity", "wind_speed"]
 
 
 def _load_model():
-    """Lazily load and cache the trained Random Forest model. Returns None if missing."""
+  
     if "model" in _model_cache:
         return _model_cache["model"]
 
