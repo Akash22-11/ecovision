@@ -1,4 +1,4 @@
-" AQI predictor: "
+""" AQI predictor: """
 
 import pickle
 from pathlib import Path
