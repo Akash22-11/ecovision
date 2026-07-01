@@ -32,6 +32,7 @@ def recommend_action(
     cluster_size: int,
     current_aqi: float | None = None,
 ) -> Recommendation:
+   
     """
     Build a recommended action + alert message for a hotspot.
 
@@ -58,6 +59,7 @@ def recommend_action(
 
 # --- TEST BLOCK ---
 if __name__ == "__main__":
+    
     # Test Case 1: Critical Garbage Burning with high AQI
     rec1 = recommend_action(
         dominant_pollution_type=PollutionType.GARBAGE_BURNING,
