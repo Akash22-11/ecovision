@@ -96,6 +96,7 @@ def detect_pollution(image_path: str) -> dict[str, Any]:
         labels.append(names.get(class_id, "other"))
         confidences.append(float(box.conf[0].item()))
 
+    
     # Use the highest-confidence detection as the report's primary classification.
     best_idx = max(range(len(confidences)), key=lambda i: confidences[i])
 
@@ -128,9 +129,7 @@ def _mock_detection() -> dict[str, Any]:
 # --- TEST BLOCK ---
 if __name__ == "__main__":
     print("Testing YOLOv8 Detector...")
-    
-    # Pass a dummy path; if the model exists, YOLO will throw an error about the missing file,
-    # but if it's in mock mode, it will gracefully return our fake data!
+  
     result = detect_pollution("dummy_image.jpg")
     
     print("\n--- Detection Results ---")
