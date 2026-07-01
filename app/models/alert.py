@@ -1,7 +1,6 @@
 """Alert model: municipality alerts generated from high-risk hotspots."""
 
-
-from datetime import datetime
+from datetime import datetime, timezone
 
 from sqlalchemy import DateTime, Enum, ForeignKey, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -23,7 +22,7 @@ class Alert(Base):
         Enum(AlertStatus, name="alert_status"), nullable=False, default=AlertStatus.PENDING
     )
 
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=lambda: datetime.now(timezone.utc).replace(tzinfo=None), nullable=False, index=True)
 
     hotspot = relationship("Hotspot")
 
