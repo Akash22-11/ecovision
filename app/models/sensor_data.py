@@ -5,12 +5,13 @@ Used both to power the Air Quality Integration feature directly, and as
 historical input data for hotspot risk scoring and AQI prediction.
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 
 from sqlalchemy import DateTime, Float
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.database import Base
+
 
 class SensorData(Base):
     __tablename__ = "sensor_data"
@@ -29,7 +30,7 @@ class SensorData(Base):
     humidity: Mapped[float] = mapped_column(Float, nullable=False)
     wind_speed: Mapped[float] = mapped_column(Float, nullable=False)
 
-    timestamp: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow, nullable=False, index=True)
+    timestamp: Mapped[datetime] = mapped_column(DateTime, default=lambda: datetime.now(timezone.utc).replace(tzinfo=None), nullable=False, index=True)
 
     def __repr__(self) -> str:
         return f"<SensorData id={self.id} aqi={self.aqi} at=({self.latitude},{self.longitude})>"
