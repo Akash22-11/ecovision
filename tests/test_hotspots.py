@@ -4,8 +4,6 @@ from pathlib import Path
 
 SAMPLE_IMAGE = Path(__file__).parent / "sample_image.jpg"
 
-# A tight cluster of nearby coordinates (within ~100m of each other) in Kolkata,
-# well within HOTSPOT_DBSCAN_EPS_KM, so DBSCAN should group them into one hotspot.
 CLUSTER_COORDS = [
     (22.5726, 88.3639),
     (22.5728, 88.3641),
