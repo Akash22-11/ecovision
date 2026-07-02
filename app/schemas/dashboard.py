@@ -1,4 +1,3 @@
-"""Pydantic schemas for the Dashboard and Interactive Pollution Map features."""
 
 from datetime import date, datetime
 
