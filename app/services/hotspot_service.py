@@ -48,11 +48,10 @@ def generate_hotspots(db: Session, lookback_days: int = DEFAULT_LOOKBACK_DAYS) -
             status=HotspotStatus.ACTIVE,
         )
         db.add(hotspot)
-        db.flush()  # assign hotspot.id without committing yet
+        db.flush()                                            # assign hotspot.id without committing yet
         created.append(hotspot)
 
-        # Stash dominant pollution type on the object for the route layer
-        # (used to generate alerts) without persisting it on the Hotspot model.
+      
         dominant_type = Counter(
             report_by_id[rid].pollution_type for rid in cluster.member_report_ids if rid in report_by_id
         ).most_common(1)
