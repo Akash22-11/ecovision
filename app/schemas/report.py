@@ -1,19 +1,10 @@
-
-
 from datetime import date, datetime
-
 from pydantic import BaseModel, ConfigDict, Field
-
 from app.utils.constants import PollutionType, ReportStatus, SeverityLevel
 
 
 class ReportCreateRequest(BaseModel):
-    """
-    Form fields accompanying the multipart image upload on
-    POST /api/v1/reports/upload. The image itself is handled separately
-    as an UploadFile in the route signature.
-    """
-
+  
     latitude: float = Field(..., ge=-90, le=90)
     longitude: float = Field(..., ge=-180, le=180)
     pollution_type: PollutionType | None = Field(
