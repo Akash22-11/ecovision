@@ -94,6 +94,7 @@ def list_reports(
     skip: int = 0,
     limit: int = 100,
 ) -> list[PollutionReport]:
+   
     """List reports with optional filters - backs both GET /reports and the map endpoint."""
     query = db.query(PollutionReport)
 
