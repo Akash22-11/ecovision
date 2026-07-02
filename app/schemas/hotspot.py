@@ -1,4 +1,4 @@
-"""Pydantic schemas for hotspot detection and history."""
+
 
 from datetime import datetime
 
