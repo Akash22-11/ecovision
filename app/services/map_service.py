@@ -1,4 +1,4 @@
-"""Map service: builds marker payloads for the Interactive Pollution Map feature."""
+"""Map service:."""
 
 from datetime import date
 
