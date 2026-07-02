@@ -12,10 +12,7 @@ HIGH_RISK_THRESHOLD = 60.0  # risk_score (0-100) at/above which an alert is gene
 
 
 def generate_alerts_for_active_hotspots(db: Session) -> list[Alert]:
-    """
-    For every ACTIVE hotspot above HIGH_RISK_THRESHOLD that doesn't already
-    have a pending/sent alert, create one using the recommendation engine.
-    """
+ 
     high_risk_hotspots = (
         db.query(Hotspot)
         .filter(Hotspot.status == HotspotStatus.ACTIVE, Hotspot.risk_score >= HIGH_RISK_THRESHOLD)
