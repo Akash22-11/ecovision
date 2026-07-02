@@ -1,5 +1,3 @@
-"""Hotspot service: orchestrates fetching recent reports, running DBSCAN, and persisting clusters."""
-
 from collections import Counter
 from datetime import datetime, timedelta
 
