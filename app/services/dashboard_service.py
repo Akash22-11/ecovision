@@ -1,5 +1,3 @@
-"""Dashboard service: aggregates report/hotspot/prediction data for the dashboard UI."""
-
 from datetime import date, datetime, timedelta
 
 from sqlalchemy import func
@@ -91,4 +89,5 @@ def get_pollution_trend(db: Session, days: int = 14) -> list[dict]:
                 "average_aqi": round(float(avg_aqi), 1) if avg_aqi is not None else None,
             }
         )
+    
     return trend
