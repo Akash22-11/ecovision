@@ -38,6 +38,7 @@ def test_prediction_history_reflects_past_predictions(client, auth_headers):
         headers=auth_headers,
         json={"latitude": 22.5726, "longitude": 88.3639},
     )
+    
     response = client.get("/api/v1/prediction/history", headers=auth_headers)
     assert response.status_code == 200
     assert len(response.json()["predictions"]) == 1
