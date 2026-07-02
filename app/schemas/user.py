@@ -1,9 +1,5 @@
-"""Pydantic schemas for user registration, login, and profile responses."""
-
 from datetime import datetime
-
 from pydantic import BaseModel, ConfigDict, EmailStr, Field
-
 from app.utils.constants import UserRole
 
 
