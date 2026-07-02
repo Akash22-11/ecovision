@@ -20,6 +20,7 @@ from app.utils.security import decode_access_token
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/v1/auth/login")
 
 
+
 def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)) -> User:
     """Decode the bearer token and load the corresponding User, or raise 401."""
     credentials_exception = HTTPException(
@@ -27,6 +28,7 @@ def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(
         detail="Could not validate credentials.",
         headers={"WWW-Authenticate": "Bearer"},
     )
+    
     try:
         payload = decode_access_token(token)
         user_id = payload.get("sub")
@@ -42,7 +44,6 @@ def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(
 
 
 def require_role(*allowed_roles: UserRole):
-    """Dependency factory: restricts a route to one or more roles."""
 
     def role_checker(current_user: User = Depends(get_current_user)) -> User:
         if current_user.role not in allowed_roles:
