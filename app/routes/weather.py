@@ -1,5 +1,3 @@
-"""Air Quality Integration routes: current AQI/weather for a location."""
-
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
@@ -22,6 +20,7 @@ router = APIRouter(prefix="/weather", tags=["Air Quality"])
         "historical trend/prediction use."
     ),
 )
+
 def get_current_air_quality(
     latitude: float,
     longitude: float,
