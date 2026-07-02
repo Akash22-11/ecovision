@@ -51,6 +51,7 @@ def test_generate_hotspots_with_too_few_reports_creates_none(client, auth_header
     assert response.json()["hotspots_created"] == 0
 
 
+
 def test_list_hotspots_ranked_by_risk_score(client, auth_headers, admin_headers):
     for lat, lon in CLUSTER_COORDS:
         _upload_at(client, auth_headers, lat, lon)
