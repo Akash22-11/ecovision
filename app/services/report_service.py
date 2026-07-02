@@ -48,7 +48,7 @@ def create_report_with_detection(
             logger.error(f"Could not save annotated image for {image_path}: {exc}")
             processed_path = None
 
-    # Citizen-selected category (if any) is informational; AI detection is authoritative.
+
     try:
         pollution_type = PollutionType(detection["type"])
     except ValueError:
