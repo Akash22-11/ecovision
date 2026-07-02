@@ -1,8 +1,5 @@
-
 from datetime import date, datetime
-
 from pydantic import BaseModel
-
 from app.utils.constants import PollutionType, SeverityLevel
 
 
