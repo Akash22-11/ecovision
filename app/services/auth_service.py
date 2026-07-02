@@ -1,5 +1,3 @@
-"""Auth service: orchestrates user registration, login, and profile retrieval."""
-
 from sqlalchemy.orm import Session
 
 from app.models.user import User
