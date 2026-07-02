@@ -1,5 +1,3 @@
-"""Alert service: generates municipality alerts from high-risk hotspots and tracks resolution."""
-
 from sqlalchemy.orm import Session
 
 from app.ai.recommendation_engine import recommend_action
