@@ -1,4 +1,4 @@
-"""Pydantic schemas for municipality alerts."""
+
 
 from datetime import datetime
 
