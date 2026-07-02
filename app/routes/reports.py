@@ -1,5 +1,3 @@
-"""Pollution report routes: upload (with AI detection), list, retrieve, status update, delete."""
-
 from datetime import date
 
 from fastapi import APIRouter, Depends, File, Form, UploadFile, status
@@ -38,6 +36,7 @@ router = APIRouter(prefix="/reports", tags=["Pollution Reports"])
         "the resulting type/confidence/severity are stored on the report."
     ),
 )
+
 async def upload_report(
     image: UploadFile = File(..., description="JPEG/PNG/WEBP photo of the pollution incident"),
     latitude: float = Form(..., ge=-90, le=90),
