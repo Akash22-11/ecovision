@@ -1,5 +1,3 @@
-"""Prediction service: orchestrates 24h AQI forecasting, persistence, and history retrieval."""
-
 from datetime import datetime, timedelta
 
 from sqlalchemy.orm import Session
@@ -15,10 +13,12 @@ from app.utils.validators import ValidationError
 def predict_for_location(
     db: Session, latitude: float, longitude: float, location_name: str | None = None
 ) -> Prediction:
+  
     """
     Fetch current conditions for a location, run the Random Forest model
     to predict AQI 24h ahead, and persist the result.
     """
+    
     current = fetch_current_air_quality(db, latitude, longitude)
 
     result = predict_next_24h_aqi(
