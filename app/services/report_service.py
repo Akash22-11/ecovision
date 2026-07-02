@@ -22,6 +22,7 @@ from app.utils.validators import ValidationError, validate_coordinates
 def create_report_with_detection(
     db: Session, user: User, payload: ReportCreateRequest, image_path: str
 ) -> tuple[PollutionReport, dict]:
+   
     """
     Run AI detection on the uploaded image, save an annotated copy, and
     persist the resulting PollutionReport.
@@ -29,6 +30,7 @@ def create_report_with_detection(
     Returns:
         (PollutionReport, detection_result_dict)
     """
+    
     validate_coordinates(payload.latitude, payload.longitude)
 
     detection = detect_pollution(image_path)
@@ -42,7 +44,7 @@ def create_report_with_detection(
             )
             processed_path = processed_image_path_for(image_path)
             save_image(annotated, processed_path)
-        except Exception as exc:  # noqa: BLE001 - annotation failure shouldn't block report creation
+        except Exception as exc: 
             logger.error(f"Could not save annotated image for {image_path}: {exc}")
             processed_path = None
 
