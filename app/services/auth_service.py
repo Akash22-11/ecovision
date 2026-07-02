@@ -37,6 +37,7 @@ def authenticate_user(db: Session, payload: UserLoginRequest) -> User:
     return user
 
 
+
 def build_token_for_user(user: User) -> str:
     """Issue a JWT access token for an authenticated user."""
     return create_access_token(subject=str(user.id), role=user.role.value)
