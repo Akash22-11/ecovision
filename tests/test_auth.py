@@ -1,6 +1,3 @@
-"""Tests for registration, login, profile, and RBAC."""
-
-
 def test_register_creates_user_and_returns_token(client):
     response = client.post(
         "/api/v1/auth/register",
