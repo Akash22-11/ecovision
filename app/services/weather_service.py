@@ -17,10 +17,7 @@ REQUEST_TIMEOUT_SECONDS = 8
 
 
 def fetch_current_air_quality(db: Session, latitude: float, longitude: float) -> dict:
-    """
-    Fetch current AQI + weather for a location, persist it as SensorData,
-    and return a flat dict matching CurrentAirQualityResponse.
-    """
+  
     if not settings.OPENWEATHER_API_KEY:
         logger.warning("OPENWEATHER_API_KEY not set - returning mock air quality data.")
         data = _mock_reading(latitude, longitude)
