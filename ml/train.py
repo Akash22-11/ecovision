@@ -1,19 +1,3 @@
-"""
-Training script for the 24h-ahead AQI Random Forest regressor.
-
-Usage:
-    python ml/train.py
-
-If `ml/dataset.csv` doesn't exist yet, a synthetic-but-physically-plausible
-dataset is generated first (useful for getting the pipeline running before
-real historical sensor data has been collected). Replace dataset.csv with
-real SensorData exports for production use.
-
-Output:
-    ml/model.pkl - pickled sklearn RandomForestRegressor, loaded at runtime
-                by app/ai/aqi_predictor.py.
-"""
-
 import pickle
 import sys
 from pathlib import Path
