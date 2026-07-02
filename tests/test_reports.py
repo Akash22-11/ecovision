@@ -24,6 +24,7 @@ def test_upload_report_runs_detection_and_persists(client, auth_headers):
     assert body["report"]["status"] == "pending"
     assert 0 <= body["detection"]["confidence"] <= 100
     assert body["detection"]["severity"] in {"low", "medium", "high"}
+  
     # No trained YOLOv8 weights are bundled with this repo, so mock mode is expected.
     assert body["detection"]["mock"] is True
 
@@ -89,6 +90,7 @@ def test_admin_can_update_report_status(client, auth_headers, admin_headers):
     )
     assert response.status_code == 200
     assert response.json()["status"] == "verified"
+
 
 
 def test_citizen_cannot_update_report_status(client, auth_headers):
