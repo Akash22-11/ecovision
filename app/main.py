@@ -1,8 +1,3 @@
-"""
-EcoVision AI - FastAPI application entrypoint.
-
-"""
-
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.exception_handlers import http_exception_handler
 from fastapi.middleware.cors import CORSMiddleware
@@ -26,6 +21,7 @@ app = FastAPI(
     docs_url="/docs",
     redoc_url="/redoc",
 )
+
 
 app.add_middleware(
     CORSMiddleware,
