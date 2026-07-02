@@ -13,11 +13,7 @@ DEFAULT_LOOKBACK_DAYS = 14
 
 
 def generate_hotspots(db: Session, lookback_days: int = DEFAULT_LOOKBACK_DAYS) -> list[Hotspot]:
-    """
-    Run DBSCAN over recent pollution reports and persist the resulting
-    hotspots. Existing ACTIVE hotspots are superseded (marked RESOLVED)
-    so the table always reflects the latest clustering run.
-    """
+   
     since = datetime.utcnow() - timedelta(days=lookback_days)
     reports = (
         db.query(PollutionReport).filter(PollutionReport.created_at >= since).all()
@@ -36,7 +32,6 @@ def generate_hotspots(db: Session, lookback_days: int = DEFAULT_LOOKBACK_DAYS) -
 
     clusters: list[HotspotCluster] = detect_hotspots(points)
 
-    # Supersede previous active hotspots before inserting the fresh set.
     db.query(Hotspot).filter(Hotspot.status == HotspotStatus.ACTIVE).update(
         {Hotspot.status: HotspotStatus.RESOLVED}
     )
