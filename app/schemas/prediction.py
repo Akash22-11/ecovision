@@ -1,4 +1,4 @@
-"""Pydantic schemas for the AQI Prediction feature."""
+
 
 from datetime import datetime
 
