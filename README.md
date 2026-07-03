@@ -61,6 +61,39 @@ Thank you for your interest in contributing to EcoVision! We are building a plat
    ```bash
    pytest -q
 ---
+
+# EcoVision System Architecture 🏗️
+
+EcoVision is designed as a modular, asynchronous backend capable of handling geospatial data, image processing, and machine learning inference.
+
+## 🔄 System Flow
+
+1. **Data Ingestion (Citizen App):** 
+   A user uploads an image and GPS coordinates to `/reports/upload`.
+2. **AI Inference Pipeline:** 
+   * The image is saved to `app/uploads/original/`.
+   * The path is passed to the YOLOv8 service.
+   * YOLOv8 identifies pollution classes (e.g., *garbage burning*), assigns a confidence score, and determines severity.
+   * The processed image with bounding boxes is saved to `app/uploads/processed/`.
+3. **Storage:** 
+   The report metadata, GPS coordinates, and image paths are persisted to PostgreSQL via SQLAlchemy.
+4. **Hotspot Generation (Cron/Admin Trigger):** 
+   * The `/hotspots/generate` endpoint pulls recent reports.
+   * The **DBSCAN** algorithm clusters reports based on geospatial proximity (Haversine distance).
+   * Clusters are assigned a Risk Score based on the density and severity of the reports.
+5. **Prediction Pipeline:** 
+   * OpenWeather API fetches current meteorological data.
+   * The **Random Forest** model processes current AQI, weather, and historical trends to output a 24-hour AQI prediction.
+6. **Municipality Dashboard:** 
+   * The admin frontend fetches aggregated data via the `/dashboard/*` and `/municipality/alerts` endpoints.
+
+## 🗄️ Database Schema Overview
+
+* **Users:** Citizens and Admins (differentiated by role).
+* **PollutionReports:** Geolocation (lat/lon), image paths, AI-detected category, severity, status (Pending/Verified/Resolved).
+* **Hotspots:** Centroid lat/lon, calculated radius, risk score, list of associated report IDs.
+* **Alerts:** Auto-generated action items tied to high-risk hotspots.
+* **Predictions:** Historical log of predicted AQI vs. actual AQI.
 ## 📂 Project Structure
 
 ```text
