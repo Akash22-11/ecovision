@@ -57,3 +57,29 @@ backend/
 ├── Dockerfile
 ├── docker-compose.yml
 └── requirements.txt
+
+# Contributing to EcoVision AI 🌍
+
+Thank you for your interest in contributing to EcoVision! We are building a platform to empower citizens and municipalities to monitor and predict pollution. This guide outlines our development workflow.
+
+## 🛠️ Development Workflow
+
+1. **Branching Strategy:**
+   Always create a new branch for your work. Do not commit directly to `main`.
+   * Feature: `feature/short-description` (e.g., `feature/map-clustering`)
+   * Bug Fix: `bugfix/issue-description` (e.g., `bugfix/jwt-expiry-fix`)
+   * ML/Data: `model/yolo-retrain`
+
+2. **Local Setup:**
+   Please refer to the `README.md` for instructions on setting up the project locally via Docker or a virtual environment.
+
+3. **Code Style & Formatting:**
+   We enforce clean, readable Python code.
+   * Format your code using **Black**: `black app/ ml/ tests/`
+   * Lint your code using **Flake8** or **Ruff**.
+   * Use type hints for all FastAPI endpoints and service functions (Pydantic models will handle the heavy lifting).
+
+4. **Testing:**
+   Before opening a Pull Request, ensure all tests pass.
+   ```bash
+   pytest -q
