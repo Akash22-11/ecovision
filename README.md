@@ -1,4 +1,4 @@
-# EcoVision.
+# EcoVision AI - Backend
 
 > **EcoVision** is an AI-powered pollution monitoring and prediction platform. 
 
