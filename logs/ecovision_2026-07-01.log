@@ -1,0 +1,816 @@
+2026-07-01 13:06:28.900 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:29.179 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:29.202 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:29.438 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:29.443 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:06:29.463 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:29.688 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:29.899 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:06:29.912 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:30.123 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:30.343 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:06:30.344 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:06:30.360 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:30.375 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:30.605 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:30.626 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:30.847 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:30.890 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:31.114 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:06:31.124 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:06:31.142 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:31.350 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:31.373 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:31.583 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:31.795 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:06:31.805 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073631_0d9c934b02.jpg (690 bytes)
+2026-07-01 13:06:31.805 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:06:31.843 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073631_0d9c934b02.jpg
+2026-07-01 13:06:31.849 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.93 confidence, mock=True)
+2026-07-01 13:06:31.856 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073631_ef4794a002.jpg (690 bytes)
+2026-07-01 13:06:31.860 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073631_ef4794a002.jpg
+2026-07-01 13:06:31.863 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: construction_dust (0.66 confidence, mock=True)
+2026-07-01 13:06:31.870 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073631_752fb60dd6.jpg (690 bytes)
+2026-07-01 13:06:31.872 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073631_752fb60dd6.jpg
+2026-07-01 13:06:31.875 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: dust (0.71 confidence, mock=True)
+2026-07-01 13:06:31.881 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073631_6f000db4b0.jpg (690 bytes)
+2026-07-01 13:06:31.884 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073631_6f000db4b0.jpg
+2026-07-01 13:06:31.886 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: industrial_smoke (0.93 confidence, mock=True)
+2026-07-01 13:06:31.897 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:06:31.902 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:06:31.940 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:32.151 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:32.361 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:06:32.368 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073632_5694dbca89.jpg (690 bytes)
+2026-07-01 13:06:32.370 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073632_5694dbca89.jpg
+2026-07-01 13:06:32.376 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.83 confidence, mock=True)
+2026-07-01 13:06:32.382 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 13:06:32.383 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 13:06:32.397 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:32.623 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:32.830 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:06:32.837 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073632_35e1a39133.jpg (690 bytes)
+2026-07-01 13:06:32.840 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073632_35e1a39133.jpg
+2026-07-01 13:06:32.844 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.86 confidence, mock=True)
+2026-07-01 13:06:32.849 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073632_816dc8b932.jpg (690 bytes)
+2026-07-01 13:06:32.853 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073632_816dc8b932.jpg
+2026-07-01 13:06:32.854 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: smoke (0.72 confidence, mock=True)
+2026-07-01 13:06:32.861 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073632_1c9a0e4703.jpg (690 bytes)
+2026-07-01 13:06:32.862 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073632_1c9a0e4703.jpg
+2026-07-01 13:06:32.864 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: dust (0.57 confidence, mock=True)
+2026-07-01 13:06:32.870 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073632_3dd9867f4b.jpg (690 bytes)
+2026-07-01 13:06:32.873 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073632_3dd9867f4b.jpg
+2026-07-01 13:06:32.874 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: smoke (0.81 confidence, mock=True)
+2026-07-01 13:06:32.880 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:06:32.884 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:06:32.903 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:33.128 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:33.134 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:06:33.138 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:06:33.172 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=145.5 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:06:33.193 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:33.212 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:33.440 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:33.459 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:33.687 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:33.692 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:06:33.699 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=138.2 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:06:33.718 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:33.933 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:33.941 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073633_8b947ae5bf.jpg (690 bytes)
+2026-07-01 13:06:33.943 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073633_8b947ae5bf.jpg
+2026-07-01 13:06:33.947 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.67 confidence, mock=True)
+2026-07-01 13:06:33.965 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:34.185 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:34.190 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:06:34.221 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:34.246 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:34.459 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:34.466 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073634_8792ba72fa.jpg (690 bytes)
+2026-07-01 13:06:34.470 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073634_8792ba72fa.jpg
+2026-07-01 13:06:34.475 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.84 confidence, mock=True)
+2026-07-01 13:06:34.510 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:34.739 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:34.745 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073634_6fb37595ae.jpg (690 bytes)
+2026-07-01 13:06:34.747 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073634_6fb37595ae.jpg
+2026-07-01 13:06:34.751 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.66 confidence, mock=True)
+2026-07-01 13:06:34.769 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:34.986 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:34.992 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:06:35.010 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:35.237 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:35.244 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073635_d94d2a676c.jpg (690 bytes)
+2026-07-01 13:06:35.248 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073635_d94d2a676c.jpg
+2026-07-01 13:06:35.253 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.88 confidence, mock=True)
+2026-07-01 13:06:35.262 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:06:35.268 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:06:35.282 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:35.497 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:35.722 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:06:35.728 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073635_43f7041700.jpg (690 bytes)
+2026-07-01 13:06:35.730 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073635_43f7041700.jpg
+2026-07-01 13:06:35.734 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.72 confidence, mock=True)
+2026-07-01 13:06:35.741 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:06:35.757 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:06:35.973 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:06:35.980 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073635_fbe0317fc9.jpg (690 bytes)
+2026-07-01 13:06:35.982 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073635_fbe0317fc9.jpg
+2026-07-01 13:06:35.985 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.87 confidence, mock=True)
+2026-07-01 13:07:08.106 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:08.411 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:08.432 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:08.666 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:08.669 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:07:08.682 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:08.915 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:09.143 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:07:09.201 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:09.420 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:09.633 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:07:09.634 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:07:09.666 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:09.684 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:09.903 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:09.944 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:10.173 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:10.224 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:10.479 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:07:10.488 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:07:10.503 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:10.739 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:10.769 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:10.996 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:11.209 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:07:11.216 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073711_9bd76e4ba0.jpg (690 bytes)
+2026-07-01 13:07:11.217 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:07:11.219 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073711_9bd76e4ba0.jpg
+2026-07-01 13:07:11.224 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.90 confidence, mock=True)
+2026-07-01 13:07:11.231 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073711_9193916a87.jpg (690 bytes)
+2026-07-01 13:07:11.233 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073711_9193916a87.jpg
+2026-07-01 13:07:11.236 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: smoke (0.55 confidence, mock=True)
+2026-07-01 13:07:11.242 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073711_60591a8205.jpg (690 bytes)
+2026-07-01 13:07:11.244 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073711_60591a8205.jpg
+2026-07-01 13:07:11.245 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: industrial_smoke (0.68 confidence, mock=True)
+2026-07-01 13:07:11.251 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073711_5114b7fa67.jpg (690 bytes)
+2026-07-01 13:07:11.253 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073711_5114b7fa67.jpg
+2026-07-01 13:07:11.256 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: industrial_smoke (0.67 confidence, mock=True)
+2026-07-01 13:07:11.263 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:07:11.267 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:07:11.280 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:11.503 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:11.723 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:07:11.729 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073711_d93db3908d.jpg (690 bytes)
+2026-07-01 13:07:11.732 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073711_d93db3908d.jpg
+2026-07-01 13:07:11.737 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.73 confidence, mock=True)
+2026-07-01 13:07:11.744 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 13:07:11.745 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 13:07:11.758 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:11.981 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:12.258 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:07:12.265 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073712_bc28ebf0b8.jpg (690 bytes)
+2026-07-01 13:07:12.267 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073712_bc28ebf0b8.jpg
+2026-07-01 13:07:12.270 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.83 confidence, mock=True)
+2026-07-01 13:07:12.277 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073712_9d2b97afe8.jpg (690 bytes)
+2026-07-01 13:07:12.280 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073712_9d2b97afe8.jpg
+2026-07-01 13:07:12.283 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: garbage_burning (0.70 confidence, mock=True)
+2026-07-01 13:07:12.292 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073712_bae3e62eb8.jpg (690 bytes)
+2026-07-01 13:07:12.295 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073712_bae3e62eb8.jpg
+2026-07-01 13:07:12.298 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.77 confidence, mock=True)
+2026-07-01 13:07:12.306 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073712_43964a00c0.jpg (690 bytes)
+2026-07-01 13:07:12.308 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073712_43964a00c0.jpg
+2026-07-01 13:07:12.311 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: dust (0.62 confidence, mock=True)
+2026-07-01 13:07:12.320 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:07:12.324 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:07:12.344 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:12.584 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:12.592 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:07:12.595 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:07:12.604 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=161.9 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:07:12.626 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:12.645 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:12.888 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:12.908 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:13.148 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:13.158 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:07:13.166 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=146.3 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:07:13.186 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:13.447 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:13.457 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073713_2f14afdac4.jpg (690 bytes)
+2026-07-01 13:07:13.460 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073713_2f14afdac4.jpg
+2026-07-01 13:07:13.465 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.74 confidence, mock=True)
+2026-07-01 13:07:13.480 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:13.694 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:13.699 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:07:13.713 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:13.731 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:13.947 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:13.955 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073713_d1b89997d2.jpg (690 bytes)
+2026-07-01 13:07:13.958 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073713_d1b89997d2.jpg
+2026-07-01 13:07:13.963 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.71 confidence, mock=True)
+2026-07-01 13:07:13.986 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:14.206 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:14.212 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073714_9565869050.jpg (690 bytes)
+2026-07-01 13:07:14.214 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073714_9565869050.jpg
+2026-07-01 13:07:14.218 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.74 confidence, mock=True)
+2026-07-01 13:07:14.238 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:14.461 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:14.470 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:07:14.483 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:14.700 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:14.708 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073714_1679e9eca6.jpg (690 bytes)
+2026-07-01 13:07:14.712 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073714_1679e9eca6.jpg
+2026-07-01 13:07:14.720 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.67 confidence, mock=True)
+2026-07-01 13:07:14.731 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:07:14.738 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:07:14.774 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:15.029 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:15.268 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:07:15.277 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073715_49ca949a83.jpg (690 bytes)
+2026-07-01 13:07:15.280 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073715_49ca949a83.jpg
+2026-07-01 13:07:15.285 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.74 confidence, mock=True)
+2026-07-01 13:07:15.294 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:07:15.309 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:07:15.526 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:07:15.533 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073715_cdddac4f5e.jpg (690 bytes)
+2026-07-01 13:07:15.535 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073715_cdddac4f5e.jpg
+2026-07-01 13:07:15.539 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.76 confidence, mock=True)
+2026-07-01 13:08:22.408 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:22.658 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:22.678 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:22.917 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:22.922 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:08:22.938 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:23.150 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:23.363 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:08:23.401 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:23.615 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:23.828 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:08:23.830 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:08:23.848 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:23.864 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:24.083 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:24.098 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:24.318 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:24.358 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:24.595 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:08:24.603 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:08:24.627 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:24.860 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:24.883 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:25.122 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:25.359 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:08:25.371 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073825_7af5f5d7ae.jpg (690 bytes)
+2026-07-01 13:08:25.372 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:08:25.375 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073825_7af5f5d7ae.jpg
+2026-07-01 13:08:25.380 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.91 confidence, mock=True)
+2026-07-01 13:08:25.387 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073825_a64a338bde.jpg (690 bytes)
+2026-07-01 13:08:25.390 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073825_a64a338bde.jpg
+2026-07-01 13:08:25.393 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: garbage_burning (0.89 confidence, mock=True)
+2026-07-01 13:08:25.399 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073825_557ffb3dfc.jpg (690 bytes)
+2026-07-01 13:08:25.401 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073825_557ffb3dfc.jpg
+2026-07-01 13:08:25.403 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.56 confidence, mock=True)
+2026-07-01 13:08:25.409 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073825_4aa58e78ee.jpg (690 bytes)
+2026-07-01 13:08:25.412 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073825_4aa58e78ee.jpg
+2026-07-01 13:08:25.414 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: construction_dust (0.76 confidence, mock=True)
+2026-07-01 13:08:25.422 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:08:25.427 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:08:25.452 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:25.675 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:25.886 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:08:25.895 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073825_37384a5bfc.jpg (690 bytes)
+2026-07-01 13:08:25.900 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073825_37384a5bfc.jpg
+2026-07-01 13:08:25.905 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.91 confidence, mock=True)
+2026-07-01 13:08:25.911 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 13:08:25.912 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 13:08:25.927 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:26.150 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:26.418 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:08:26.431 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073826_88efff650d.jpg (690 bytes)
+2026-07-01 13:08:26.433 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073826_88efff650d.jpg
+2026-07-01 13:08:26.437 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.61 confidence, mock=True)
+2026-07-01 13:08:26.445 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073826_ea18cf14f6.jpg (690 bytes)
+2026-07-01 13:08:26.448 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073826_ea18cf14f6.jpg
+2026-07-01 13:08:26.450 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: industrial_smoke (0.69 confidence, mock=True)
+2026-07-01 13:08:26.458 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073826_0d3b19b564.jpg (690 bytes)
+2026-07-01 13:08:26.460 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073826_0d3b19b564.jpg
+2026-07-01 13:08:26.463 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: dust (0.66 confidence, mock=True)
+2026-07-01 13:08:26.468 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073826_1823ddcabe.jpg (690 bytes)
+2026-07-01 13:08:26.471 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073826_1823ddcabe.jpg
+2026-07-01 13:08:26.474 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: smoke (0.59 confidence, mock=True)
+2026-07-01 13:08:26.482 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:08:26.485 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:08:26.505 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:26.748 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:26.754 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:08:26.757 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:08:26.766 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=81.5 (risk=low) for (22.5726, 88.3639)
+2026-07-01 13:08:26.786 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:26.808 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:27.020 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:27.036 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:27.286 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:27.290 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:08:27.295 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=105.3 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:08:27.316 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:27.580 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:27.588 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073827_2f35f07fde.jpg (690 bytes)
+2026-07-01 13:08:27.591 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073827_2f35f07fde.jpg
+2026-07-01 13:08:27.597 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.77 confidence, mock=True)
+2026-07-01 13:08:27.612 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:27.825 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:27.830 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:08:27.866 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:27.898 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:28.126 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:28.139 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073828_8725e0124a.jpg (690 bytes)
+2026-07-01 13:08:28.141 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073828_8725e0124a.jpg
+2026-07-01 13:08:28.144 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.85 confidence, mock=True)
+2026-07-01 13:08:28.163 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:28.386 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:28.394 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073828_43160ab39b.jpg (690 bytes)
+2026-07-01 13:08:28.397 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073828_43160ab39b.jpg
+2026-07-01 13:08:28.400 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.73 confidence, mock=True)
+2026-07-01 13:08:28.423 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:28.643 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:28.649 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:08:28.672 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:28.907 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:28.918 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073828_4ee3809c42.jpg (690 bytes)
+2026-07-01 13:08:28.923 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073828_4ee3809c42.jpg
+2026-07-01 13:08:28.929 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.86 confidence, mock=True)
+2026-07-01 13:08:28.941 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:08:28.947 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:08:28.961 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:29.188 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:29.411 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:08:29.422 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073829_df68d4490c.jpg (690 bytes)
+2026-07-01 13:08:29.429 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073829_df68d4490c.jpg
+2026-07-01 13:08:29.440 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.82 confidence, mock=True)
+2026-07-01 13:08:29.457 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:08:29.476 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-07-01 13:08:29.696 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:08:29.703 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701073829_e1dac514c4.jpg (690 bytes)
+2026-07-01 13:08:29.705 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701073829_e1dac514c4.jpg
+2026-07-01 13:08:29.709 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.64 confidence, mock=True)
+2026-07-01 13:20:17.090 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:17.508 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:17.512 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:20:17.725 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:17.924 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:20:18.143 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:18.348 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:20:18.349 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:20:18.627 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:18.847 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:19.127 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:20:19.135 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:20:19.355 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:19.617 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:19.827 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:20:19.865 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075019_f41150dad6.jpg (690 bytes)
+2026-07-01 13:20:19.866 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:20:20.324 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075019_f41150dad6.jpg
+2026-07-01 13:20:20.328 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.82 confidence, mock=True)
+2026-07-01 13:20:20.333 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075020_e74ae15eee.jpg (690 bytes)
+2026-07-01 13:20:20.336 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075020_e74ae15eee.jpg
+2026-07-01 13:20:20.338 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: smoke (0.88 confidence, mock=True)
+2026-07-01 13:20:20.357 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075020_a68281ac20.jpg (690 bytes)
+2026-07-01 13:20:20.425 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075020_a68281ac20.jpg
+2026-07-01 13:20:20.428 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.84 confidence, mock=True)
+2026-07-01 13:20:20.437 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075020_dade5b32d4.jpg (690 bytes)
+2026-07-01 13:20:20.441 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075020_dade5b32d4.jpg
+2026-07-01 13:20:20.446 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: industrial_smoke (0.64 confidence, mock=True)
+2026-07-01 13:20:20.483 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:20:20.487 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:20:20.724 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:20.928 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:20:20.934 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075020_60f68a671a.jpg (690 bytes)
+2026-07-01 13:20:21.264 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075020_60f68a671a.jpg
+2026-07-01 13:20:21.270 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.56 confidence, mock=True)
+2026-07-01 13:20:21.278 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 13:20:21.281 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 13:20:21.504 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:21.707 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:20:22.825 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075021_9ad81ef2f0.jpg (690 bytes)
+2026-07-01 13:20:23.191 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075021_9ad81ef2f0.jpg
+2026-07-01 13:20:23.198 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.75 confidence, mock=True)
+2026-07-01 13:20:23.209 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075023_0f0f523167.jpg (690 bytes)
+2026-07-01 13:20:23.214 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075023_0f0f523167.jpg
+2026-07-01 13:20:23.218 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: construction_dust (0.90 confidence, mock=True)
+2026-07-01 13:20:23.235 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075023_957ee61b12.jpg (690 bytes)
+2026-07-01 13:20:23.239 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075023_957ee61b12.jpg
+2026-07-01 13:20:23.240 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: dust (0.65 confidence, mock=True)
+2026-07-01 13:20:23.248 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075023_e8179cb3e3.jpg (690 bytes)
+2026-07-01 13:20:23.251 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075023_e8179cb3e3.jpg
+2026-07-01 13:20:23.253 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: dust (0.64 confidence, mock=True)
+2026-07-01 13:20:23.259 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:20:23.263 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:20:23.506 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:23.519 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:20:23.521 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:20:23.714 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=168.0 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:20:23.962 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:24.222 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:24.226 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:20:24.230 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=175.7 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:20:24.450 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:24.473 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075024_4a9e85ef45.jpg (690 bytes)
+2026-07-01 13:20:24.561 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075024_4a9e85ef45.jpg
+2026-07-01 13:20:24.568 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.58 confidence, mock=True)
+2026-07-01 13:20:24.790 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:24.796 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:20:25.028 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:25.034 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075025_b3389930e0.jpg (690 bytes)
+2026-07-01 13:20:25.064 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075025_b3389930e0.jpg
+2026-07-01 13:20:25.070 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.76 confidence, mock=True)
+2026-07-01 13:20:25.302 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:25.616 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075025_520209633f.jpg (690 bytes)
+2026-07-01 13:20:25.621 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075025_520209633f.jpg
+2026-07-01 13:20:25.626 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.84 confidence, mock=True)
+2026-07-01 13:20:25.879 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:25.886 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:20:26.106 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:26.112 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075026_4bd429f4d7.jpg (690 bytes)
+2026-07-01 13:20:26.114 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075026_4bd429f4d7.jpg
+2026-07-01 13:20:26.122 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.73 confidence, mock=True)
+2026-07-01 13:20:26.131 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:20:26.136 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:20:26.362 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:26.571 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:20:26.916 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075026_70c436b8a3.jpg (690 bytes)
+2026-07-01 13:20:27.338 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075026_70c436b8a3.jpg
+2026-07-01 13:20:27.346 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.70 confidence, mock=True)
+2026-07-01 13:20:27.367 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:20:27.603 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:20:27.613 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075027_2166ed1187.jpg (690 bytes)
+2026-07-01 13:20:27.615 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075027_2166ed1187.jpg
+2026-07-01 13:20:27.622 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.61 confidence, mock=True)
+2026-07-01 13:26:05.432 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:05.684 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:05.688 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:26:05.904 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:06.112 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:26:06.349 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:06.558 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:26:06.559 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:26:06.795 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:07.016 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:07.251 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:26:07.259 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:26:07.471 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:07.691 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:07.890 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:26:14.172 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075607_3980c6a4e3.jpg (690 bytes)
+2026-07-01 13:26:14.173 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:26:14.177 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075607_3980c6a4e3.jpg
+2026-07-01 13:26:14.181 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.86 confidence, mock=True)
+2026-07-01 13:26:14.194 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075614_97d7b33fc5.jpg (690 bytes)
+2026-07-01 13:26:14.784 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075614_97d7b33fc5.jpg
+2026-07-01 13:26:14.788 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: construction_dust (0.84 confidence, mock=True)
+2026-07-01 13:26:15.112 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075614_a51aa256fe.jpg (690 bytes)
+2026-07-01 13:26:15.734 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075614_a51aa256fe.jpg
+2026-07-01 13:26:15.737 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.60 confidence, mock=True)
+2026-07-01 13:26:15.746 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075615_e637cee5cc.jpg (690 bytes)
+2026-07-01 13:26:15.748 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075615_e637cee5cc.jpg
+2026-07-01 13:26:15.750 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: construction_dust (0.88 confidence, mock=True)
+2026-07-01 13:26:15.759 | ERROR    | app.main:unhandled_exception_handler:93 - Unhandled exception on POST /api/v1/hotspots/generate: name 'timedelta' is not defined
+2026-07-01 13:26:16.953 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:17.151 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:26:17.228 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075617_4a6c17cf0b.jpg (690 bytes)
+2026-07-01 13:26:17.506 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075617_4a6c17cf0b.jpg
+2026-07-01 13:26:17.512 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.79 confidence, mock=True)
+2026-07-01 13:26:17.520 | ERROR    | app.main:unhandled_exception_handler:93 - Unhandled exception on POST /api/v1/hotspots/generate: name 'timedelta' is not defined
+2026-07-01 13:26:18.056 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:18.258 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:26:19.081 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075618_ab868b1bdd.jpg (690 bytes)
+2026-07-01 13:26:19.086 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075618_ab868b1bdd.jpg
+2026-07-01 13:26:19.091 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.84 confidence, mock=True)
+2026-07-01 13:26:19.105 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075619_976deb92e5.jpg (690 bytes)
+2026-07-01 13:26:19.108 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075619_976deb92e5.jpg
+2026-07-01 13:26:19.111 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: garbage_burning (0.71 confidence, mock=True)
+2026-07-01 13:26:19.198 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075619_fc40d7c452.jpg (690 bytes)
+2026-07-01 13:26:19.286 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075619_fc40d7c452.jpg
+2026-07-01 13:26:19.289 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: construction_dust (0.59 confidence, mock=True)
+2026-07-01 13:26:19.301 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075619_e3aef9545a.jpg (690 bytes)
+2026-07-01 13:26:19.358 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075619_e3aef9545a.jpg
+2026-07-01 13:26:19.362 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: garbage_burning (0.92 confidence, mock=True)
+2026-07-01 13:26:19.371 | ERROR    | app.main:unhandled_exception_handler:93 - Unhandled exception on POST /api/v1/hotspots/generate: name 'timedelta' is not defined
+2026-07-01 13:26:19.902 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:19.907 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:26:19.910 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:26:19.916 | ERROR    | app.main:unhandled_exception_handler:93 - Unhandled exception on POST /api/v1/prediction/tomorrow: name 'timedelta' is not defined
+2026-07-01 13:26:20.470 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:20.689 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:20.694 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:26:20.701 | ERROR    | app.main:unhandled_exception_handler:93 - Unhandled exception on POST /api/v1/prediction/tomorrow: name 'timedelta' is not defined
+2026-07-01 13:26:21.293 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:21.302 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075621_126b31c638.jpg (690 bytes)
+2026-07-01 13:26:21.308 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075621_126b31c638.jpg
+2026-07-01 13:26:21.318 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.91 confidence, mock=True)
+2026-07-01 13:26:21.545 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:21.550 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:26:21.780 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:21.787 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075621_735ad9ffd8.jpg (690 bytes)
+2026-07-01 13:26:21.790 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075621_735ad9ffd8.jpg
+2026-07-01 13:26:21.794 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.82 confidence, mock=True)
+2026-07-01 13:26:22.043 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:22.053 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075622_53b3628142.jpg (690 bytes)
+2026-07-01 13:26:22.060 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075622_53b3628142.jpg
+2026-07-01 13:26:22.063 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.65 confidence, mock=True)
+2026-07-01 13:26:22.298 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:22.304 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:26:22.523 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:22.532 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075622_bf548ef11b.jpg (690 bytes)
+2026-07-01 13:26:22.561 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075622_bf548ef11b.jpg
+2026-07-01 13:26:22.563 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.63 confidence, mock=True)
+2026-07-01 13:26:22.570 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:26:22.575 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:26:22.792 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:23.000 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:26:25.777 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075623_2e5abf6cb9.jpg (690 bytes)
+2026-07-01 13:26:26.666 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075623_2e5abf6cb9.jpg
+2026-07-01 13:26:26.672 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.76 confidence, mock=True)
+2026-07-01 13:26:26.683 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:26:26.897 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:26:26.939 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701075626_0e91b4590f.jpg (690 bytes)
+2026-07-01 13:26:26.945 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701075626_0e91b4590f.jpg
+2026-07-01 13:26:26.949 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.62 confidence, mock=True)
+2026-07-01 13:31:40.191 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:40.445 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:40.449 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:31:40.660 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:40.859 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:31:41.067 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:41.265 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:31:41.266 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:31:41.489 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:41.704 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:41.936 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:31:41.943 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:31:42.154 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:42.391 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:42.589 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:31:43.356 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080142_caa9665ea5.jpg (690 bytes)
+2026-07-01 13:31:43.357 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:31:43.879 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080142_caa9665ea5.jpg
+2026-07-01 13:31:43.893 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.60 confidence, mock=True)
+2026-07-01 13:31:44.151 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080143_84b81cd229.jpg (690 bytes)
+2026-07-01 13:31:44.258 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080143_84b81cd229.jpg
+2026-07-01 13:31:44.263 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: construction_dust (0.80 confidence, mock=True)
+2026-07-01 13:31:44.344 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080144_c832c02e84.jpg (690 bytes)
+2026-07-01 13:31:44.486 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080144_c832c02e84.jpg
+2026-07-01 13:31:44.491 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: garbage_burning (0.60 confidence, mock=True)
+2026-07-01 13:31:44.503 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080144_9cfd624e94.jpg (690 bytes)
+2026-07-01 13:31:44.510 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080144_9cfd624e94.jpg
+2026-07-01 13:31:44.513 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: construction_dust (0.86 confidence, mock=True)
+2026-07-01 13:31:44.522 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:31:44.529 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:31:44.752 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:44.954 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:31:44.962 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080144_dc2780f854.jpg (690 bytes)
+2026-07-01 13:31:44.964 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080144_dc2780f854.jpg
+2026-07-01 13:31:44.969 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.86 confidence, mock=True)
+2026-07-01 13:31:44.976 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 13:31:44.979 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 13:31:45.209 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:45.428 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:31:45.433 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080145_49a1fb8085.jpg (690 bytes)
+2026-07-01 13:31:45.436 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080145_49a1fb8085.jpg
+2026-07-01 13:31:45.439 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.59 confidence, mock=True)
+2026-07-01 13:31:45.451 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080145_2279cfe7ea.jpg (690 bytes)
+2026-07-01 13:31:45.459 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080145_2279cfe7ea.jpg
+2026-07-01 13:31:45.462 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: construction_dust (0.66 confidence, mock=True)
+2026-07-01 13:31:45.474 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080145_d0e544ab55.jpg (690 bytes)
+2026-07-01 13:31:45.479 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080145_d0e544ab55.jpg
+2026-07-01 13:31:45.481 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.91 confidence, mock=True)
+2026-07-01 13:31:45.490 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080145_f832dd4259.jpg (690 bytes)
+2026-07-01 13:31:45.494 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080145_f832dd4259.jpg
+2026-07-01 13:31:45.497 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: construction_dust (0.87 confidence, mock=True)
+2026-07-01 13:31:45.506 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:31:45.512 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:31:45.799 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:45.805 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:31:45.808 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:31:45.816 | INFO     | app.services.prediction_service:predict_for_location:47 - Predicted AQI=91.6 (risk=low) for (22.5726, 88.3639)
+2026-07-01 13:31:46.069 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:46.306 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:46.310 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:31:46.316 | INFO     | app.services.prediction_service:predict_for_location:47 - Predicted AQI=109.1 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:31:46.556 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:46.736 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080146_616b6d0468.jpg (690 bytes)
+2026-07-01 13:31:46.744 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080146_616b6d0468.jpg
+2026-07-01 13:31:46.749 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.66 confidence, mock=True)
+2026-07-01 13:31:46.973 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:46.978 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:31:47.210 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:50.083 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080147_a6c3872f6f.jpg (690 bytes)
+2026-07-01 13:31:50.494 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080147_a6c3872f6f.jpg
+2026-07-01 13:31:50.500 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.85 confidence, mock=True)
+2026-07-01 13:31:50.744 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:50.750 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080150_88dc6e1ad8.jpg (690 bytes)
+2026-07-01 13:31:50.752 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080150_88dc6e1ad8.jpg
+2026-07-01 13:31:50.756 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.72 confidence, mock=True)
+2026-07-01 13:31:50.978 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:50.984 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:31:51.207 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:51.213 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080151_d4dc97b8b4.jpg (690 bytes)
+2026-07-01 13:31:51.215 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080151_d4dc97b8b4.jpg
+2026-07-01 13:31:51.218 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.93 confidence, mock=True)
+2026-07-01 13:31:51.224 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:31:51.229 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:31:51.458 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:51.661 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:31:51.667 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080151_108e8cda2b.jpg (690 bytes)
+2026-07-01 13:31:51.669 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080151_108e8cda2b.jpg
+2026-07-01 13:31:51.675 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.93 confidence, mock=True)
+2026-07-01 13:31:51.683 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:31:51.908 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:31:51.914 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701080151_f7f3b550ae.jpg (690 bytes)
+2026-07-01 13:31:51.917 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701080151_f7f3b550ae.jpg
+2026-07-01 13:31:51.921 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.56 confidence, mock=True)
+2026-07-01 13:50:32.097 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:32.339 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:32.342 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 13:50:32.549 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:32.753 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 13:50:33.035 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:33.232 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 13:50:33.233 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 13:50:33.457 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:33.717 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:33.946 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:50:33.953 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 13:50:34.164 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:34.386 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:34.586 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:50:34.592 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082034_366fd3732d.jpg (690 bytes)
+2026-07-01 13:50:34.592 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 13:50:34.595 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082034_366fd3732d.jpg
+2026-07-01 13:50:34.600 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.63 confidence, mock=True)
+2026-07-01 13:50:34.605 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082034_814d0e0aba.jpg (690 bytes)
+2026-07-01 13:50:34.607 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082034_814d0e0aba.jpg
+2026-07-01 13:50:34.609 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: smoke (0.77 confidence, mock=True)
+2026-07-01 13:50:34.614 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082034_d4de425ba6.jpg (690 bytes)
+2026-07-01 13:50:34.617 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082034_d4de425ba6.jpg
+2026-07-01 13:50:34.619 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.91 confidence, mock=True)
+2026-07-01 13:50:34.625 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082034_6ee994f11f.jpg (690 bytes)
+2026-07-01 13:50:34.627 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082034_6ee994f11f.jpg
+2026-07-01 13:50:34.630 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: smoke (0.58 confidence, mock=True)
+2026-07-01 13:50:34.638 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:50:34.641 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:50:34.850 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:35.046 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:50:35.053 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082035_25397a482a.jpg (690 bytes)
+2026-07-01 13:50:35.055 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082035_25397a482a.jpg
+2026-07-01 13:50:35.058 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.58 confidence, mock=True)
+2026-07-01 13:50:35.063 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 13:50:35.064 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 13:50:35.287 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:35.499 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:50:35.505 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082035_b12246870f.jpg (690 bytes)
+2026-07-01 13:50:35.507 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082035_b12246870f.jpg
+2026-07-01 13:50:35.510 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.56 confidence, mock=True)
+2026-07-01 13:50:35.515 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082035_cea7a3e60b.jpg (690 bytes)
+2026-07-01 13:50:35.517 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082035_cea7a3e60b.jpg
+2026-07-01 13:50:35.518 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: garbage_burning (0.64 confidence, mock=True)
+2026-07-01 13:50:35.522 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082035_59cb45e110.jpg (690 bytes)
+2026-07-01 13:50:35.524 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082035_59cb45e110.jpg
+2026-07-01 13:50:35.525 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: construction_dust (0.65 confidence, mock=True)
+2026-07-01 13:50:35.532 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082035_b3ba81034f.jpg (690 bytes)
+2026-07-01 13:50:35.533 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082035_b3ba81034f.jpg
+2026-07-01 13:50:35.535 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: smoke (0.56 confidence, mock=True)
+2026-07-01 13:50:35.540 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 13:50:35.543 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 13:50:35.768 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:35.774 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:50:35.777 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 13:50:35.783 | INFO     | app.services.prediction_service:predict_for_location:47 - Predicted AQI=154.4 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:50:36.035 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:36.261 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:36.265 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 13:50:36.269 | INFO     | app.services.prediction_service:predict_for_location:47 - Predicted AQI=103.2 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 13:50:36.503 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:36.509 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082036_14443cccc3.jpg (690 bytes)
+2026-07-01 13:50:36.512 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082036_14443cccc3.jpg
+2026-07-01 13:50:36.516 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.56 confidence, mock=True)
+2026-07-01 13:50:36.724 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:36.729 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 13:50:36.979 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:36.985 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082036_253a096a3c.jpg (690 bytes)
+2026-07-01 13:50:36.987 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082036_253a096a3c.jpg
+2026-07-01 13:50:36.990 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.91 confidence, mock=True)
+2026-07-01 13:50:37.231 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:37.237 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082037_fbcadf8d1b.jpg (690 bytes)
+2026-07-01 13:50:37.240 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082037_fbcadf8d1b.jpg
+2026-07-01 13:50:37.244 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.78 confidence, mock=True)
+2026-07-01 13:50:37.478 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:37.483 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 13:50:37.715 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:37.723 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082037_c88c54c1ee.jpg (690 bytes)
+2026-07-01 13:50:37.728 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082037_c88c54c1ee.jpg
+2026-07-01 13:50:37.731 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.75 confidence, mock=True)
+2026-07-01 13:50:37.739 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 13:50:37.743 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 13:50:37.988 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:38.193 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 13:50:38.199 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082038_c1265c2519.jpg (690 bytes)
+2026-07-01 13:50:38.201 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082038_c1265c2519.jpg
+2026-07-01 13:50:38.204 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.74 confidence, mock=True)
+2026-07-01 13:50:38.211 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 13:50:38.425 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 13:50:38.431 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701082038_592969f73c.jpg (690 bytes)
+2026-07-01 13:50:38.434 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701082038_592969f73c.jpg
+2026-07-01 13:50:38.437 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.85 confidence, mock=True)
+2026-07-01 14:04:19.508 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:19.779 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:19.783 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-07-01 14:04:20.000 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:20.201 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-07-01 14:04:20.423 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:20.640 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-07-01 14:04:20.641 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-07-01 14:04:20.879 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:21.117 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:21.358 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 14:04:21.365 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-07-01 14:04:21.604 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:21.823 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:22.030 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 14:04:22.037 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_88322deb8c.jpg (690 bytes)
+2026-07-01 14:04:22.037 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-07-01 14:04:22.040 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_88322deb8c.jpg
+2026-07-01 14:04:22.049 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.76 confidence, mock=True)
+2026-07-01 14:04:22.061 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_c4f4167d5b.jpg (690 bytes)
+2026-07-01 14:04:22.064 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_c4f4167d5b.jpg
+2026-07-01 14:04:22.067 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: smoke (0.70 confidence, mock=True)
+2026-07-01 14:04:22.074 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_3fb9a583ba.jpg (690 bytes)
+2026-07-01 14:04:22.077 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_3fb9a583ba.jpg
+2026-07-01 14:04:22.079 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: dust (0.71 confidence, mock=True)
+2026-07-01 14:04:22.086 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_c539df4626.jpg (690 bytes)
+2026-07-01 14:04:22.087 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_c539df4626.jpg
+2026-07-01 14:04:22.090 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: construction_dust (0.84 confidence, mock=True)
+2026-07-01 14:04:22.097 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 14:04:22.102 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 14:04:22.316 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:22.520 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 14:04:22.525 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_a6b6627387.jpg (690 bytes)
+2026-07-01 14:04:22.528 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_a6b6627387.jpg
+2026-07-01 14:04:22.534 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.70 confidence, mock=True)
+2026-07-01 14:04:22.543 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-07-01 14:04:22.545 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-07-01 14:04:22.770 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:22.971 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 14:04:22.977 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_d4652140b8.jpg (690 bytes)
+2026-07-01 14:04:22.980 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_d4652140b8.jpg
+2026-07-01 14:04:22.986 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.56 confidence, mock=True)
+2026-07-01 14:04:22.992 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083422_1d7b887730.jpg (690 bytes)
+2026-07-01 14:04:22.995 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083422_1d7b887730.jpg
+2026-07-01 14:04:23.000 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: industrial_smoke (0.77 confidence, mock=True)
+2026-07-01 14:04:23.012 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083423_d7386f49f2.jpg (690 bytes)
+2026-07-01 14:04:23.017 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083423_d7386f49f2.jpg
+2026-07-01 14:04:23.022 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: industrial_smoke (0.70 confidence, mock=True)
+2026-07-01 14:04:23.031 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083423_869508a6a7.jpg (690 bytes)
+2026-07-01 14:04:23.035 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083423_869508a6a7.jpg
+2026-07-01 14:04:23.038 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: dust (0.59 confidence, mock=True)
+2026-07-01 14:04:23.050 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-07-01 14:04:23.055 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-07-01 14:04:23.285 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:23.289 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 14:04:23.292 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-07-01 14:04:23.297 | INFO     | app.services.prediction_service:predict_for_location:47 - Predicted AQI=74.2 (risk=low) for (22.5726, 88.3639)
+2026-07-01 14:04:23.525 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:23.744 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:23.749 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-07-01 14:04:23.757 | INFO     | app.services.prediction_service:predict_for_location:47 - Predicted AQI=108.5 (risk=moderate) for (22.5726, 88.3639)
+2026-07-01 14:04:23.970 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:23.976 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083423_1f88f74bb2.jpg (690 bytes)
+2026-07-01 14:04:23.977 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083423_1f88f74bb2.jpg
+2026-07-01 14:04:23.982 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.76 confidence, mock=True)
+2026-07-01 14:04:24.196 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:24.200 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-07-01 14:04:24.438 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:24.444 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083424_d25a117b2a.jpg (690 bytes)
+2026-07-01 14:04:24.445 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083424_d25a117b2a.jpg
+2026-07-01 14:04:24.448 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.80 confidence, mock=True)
+2026-07-01 14:04:24.666 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:24.671 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083424_06e65d3784.jpg (690 bytes)
+2026-07-01 14:04:24.673 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083424_06e65d3784.jpg
+2026-07-01 14:04:24.676 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.71 confidence, mock=True)
+2026-07-01 14:04:24.908 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:24.913 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-07-01 14:04:25.124 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:25.130 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083425_4fef6b097b.jpg (690 bytes)
+2026-07-01 14:04:25.132 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083425_4fef6b097b.jpg
+2026-07-01 14:04:25.135 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.89 confidence, mock=True)
+2026-07-01 14:04:25.143 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-07-01 14:04:25.147 | WARNING  | app.main:domain_validation_exception_handler:68 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-07-01 14:04:25.356 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:25.564 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-07-01 14:04:25.570 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083425_0e09178610.jpg (690 bytes)
+2026-07-01 14:04:25.572 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083425_0e09178610.jpg
+2026-07-01 14:04:25.575 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.81 confidence, mock=True)
+2026-07-01 14:04:25.583 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-07-01 14:04:25.798 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-07-01 14:04:25.803 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260701083425_29cf11cf32.jpg (690 bytes)
+2026-07-01 14:04:25.805 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260701083425_29cf11cf32.jpg
+2026-07-01 14:04:25.808 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.91 confidence, mock=True)

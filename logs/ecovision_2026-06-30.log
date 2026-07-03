@@ -1,0 +1,330 @@
+2026-06-30 14:49:16.796 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:16.863 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:17.586 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:17.596 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:18.100 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:18.118 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:18.670 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:18.680 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:19.226 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:19.240 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:19.251 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:19.694 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:19.706 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:20.161 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:20.173 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:20.635 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:20.647 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:21.156 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:21.166 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:21.617 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:21.628 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:22.125 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:22.136 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:22.593 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:22.606 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:23.114 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:23.155 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:23.165 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:23.667 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:23.677 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:24.135 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:24.165 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:24.653 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:24.663 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:25.167 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:25.184 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:25.195 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:25.674 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:25.684 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:26.205 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:26.215 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:26.712 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:26.725 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:27.179 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:27.189 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:49:27.638 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:49:27.651 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:07.622 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:07.657 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:08.368 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:08.383 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:08.839 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:08.851 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:09.291 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:09.302 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:09.833 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:09.848 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:09.859 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:10.354 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:10.365 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:10.955 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:10.971 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:11.542 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:11.552 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:12.059 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:12.069 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:12.738 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:12.761 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:13.320 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:13.333 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:13.869 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:13.886 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:14.391 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:14.430 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:14.462 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:14.943 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:14.968 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:15.488 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:15.500 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:15.972 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:15.981 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:16.445 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:16.475 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:16.485 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:17.053 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:17.067 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:17.967 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:17.978 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:18.461 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:18.479 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:19.030 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:19.049 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:50:19.559 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:50:19.572 | ERROR    | app.main:unhandled_exception_handler:79 - Unhandled exception on POST /api/v1/auth/register: password cannot be longer than 72 bytes, truncate manually if necessary (e.g. my_password[:72])
+2026-06-30 14:52:37.054 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:37.322 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:37.360 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:37.598 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:37.601 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-06-30 14:52:37.614 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:37.813 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:38.018 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-06-30 14:52:38.030 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:38.241 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:38.440 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-06-30 14:52:38.441 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-06-30 14:52:38.449 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:38.462 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:38.666 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:38.688 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:38.893 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:38.931 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:39.153 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:52:39.160 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-06-30 14:52:39.174 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:39.374 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:39.392 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:39.594 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:39.793 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:52:39.806 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092239_c91dbbe515.jpg (690 bytes)
+2026-06-30 14:52:39.807 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-06-30 14:52:39.814 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092239_c91dbbe515.jpg
+2026-06-30 14:52:39.819 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.86 confidence, mock=True)
+2026-06-30 14:52:39.830 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092239_d884bdbd9d.jpg (690 bytes)
+2026-06-30 14:52:39.833 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092239_d884bdbd9d.jpg
+2026-06-30 14:52:39.837 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: industrial_smoke (0.68 confidence, mock=True)
+2026-06-30 14:52:39.846 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092239_b3413487fe.jpg (690 bytes)
+2026-06-30 14:52:39.849 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092239_b3413487fe.jpg
+2026-06-30 14:52:39.851 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: industrial_smoke (0.70 confidence, mock=True)
+2026-06-30 14:52:39.857 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092239_2cfb1552eb.jpg (690 bytes)
+2026-06-30 14:52:39.859 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092239_2cfb1552eb.jpg
+2026-06-30 14:52:39.861 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: garbage_burning (0.89 confidence, mock=True)
+2026-06-30 14:52:39.868 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-06-30 14:52:39.873 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-06-30 14:52:39.886 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:40.087 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:40.321 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:52:40.327 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092240_2361084bea.jpg (690 bytes)
+2026-06-30 14:52:40.330 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092240_2361084bea.jpg
+2026-06-30 14:52:40.334 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.92 confidence, mock=True)
+2026-06-30 14:52:40.342 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-06-30 14:52:40.344 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-06-30 14:52:40.358 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:40.591 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:40.887 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:52:40.894 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092240_1cf577c5a6.jpg (690 bytes)
+2026-06-30 14:52:40.897 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092240_1cf577c5a6.jpg
+2026-06-30 14:52:40.901 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.89 confidence, mock=True)
+2026-06-30 14:52:40.907 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092240_7d55eaa6ee.jpg (690 bytes)
+2026-06-30 14:52:40.909 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092240_7d55eaa6ee.jpg
+2026-06-30 14:52:40.911 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: industrial_smoke (0.87 confidence, mock=True)
+2026-06-30 14:52:40.917 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092240_4ca37108a7.jpg (690 bytes)
+2026-06-30 14:52:40.918 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092240_4ca37108a7.jpg
+2026-06-30 14:52:40.920 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: dust (0.74 confidence, mock=True)
+2026-06-30 14:52:40.926 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092240_27b60cec52.jpg (690 bytes)
+2026-06-30 14:52:40.928 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092240_27b60cec52.jpg
+2026-06-30 14:52:40.930 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: smoke (0.89 confidence, mock=True)
+2026-06-30 14:52:40.937 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-06-30 14:52:40.940 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-06-30 14:52:40.959 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:41.183 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:41.188 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-06-30 14:52:41.191 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-06-30 14:52:41.198 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=112.3 (risk=moderate) for (22.5726, 88.3639)
+2026-06-30 14:52:41.211 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:41.224 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:41.462 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:41.502 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:41.774 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:41.783 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-06-30 14:52:41.797 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=78.7 (risk=low) for (22.5726, 88.3639)
+2026-06-30 14:52:41.821 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:42.059 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:42.066 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092242_96b984be97.jpg (690 bytes)
+2026-06-30 14:52:42.069 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092242_96b984be97.jpg
+2026-06-30 14:52:42.075 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.77 confidence, mock=True)
+2026-06-30 14:52:42.093 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:42.314 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:42.319 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-06-30 14:52:42.342 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:42.370 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:42.626 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:42.635 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092242_5c7cf72fa5.jpg (690 bytes)
+2026-06-30 14:52:42.638 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092242_5c7cf72fa5.jpg
+2026-06-30 14:52:42.643 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.91 confidence, mock=True)
+2026-06-30 14:52:42.680 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:42.909 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:42.918 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092242_e13a7e1552.jpg (690 bytes)
+2026-06-30 14:52:42.920 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092242_e13a7e1552.jpg
+2026-06-30 14:52:42.924 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.73 confidence, mock=True)
+2026-06-30 14:52:42.944 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:43.222 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:43.231 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-06-30 14:52:43.251 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:43.500 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:43.510 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092243_a20d4f240c.jpg (690 bytes)
+2026-06-30 14:52:43.511 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092243_a20d4f240c.jpg
+2026-06-30 14:52:43.516 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.59 confidence, mock=True)
+2026-06-30 14:52:43.524 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-06-30 14:52:43.530 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-06-30 14:52:43.541 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:43.787 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:44.021 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:52:44.027 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092244_7b577c041e.jpg (690 bytes)
+2026-06-30 14:52:44.031 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092244_7b577c041e.jpg
+2026-06-30 14:52:44.037 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: garbage_burning (0.78 confidence, mock=True)
+2026-06-30 14:52:44.055 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-06-30 14:52:44.067 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:52:44.269 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:52:44.277 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092244_046f3e2263.jpg (690 bytes)
+2026-06-30 14:52:44.281 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092244_046f3e2263.jpg
+2026-06-30 14:52:44.286 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.88 confidence, mock=True)
+2026-06-30 14:53:39.960 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:40.214 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:40.239 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:40.451 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:40.454 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/register: An account with this email already exists.
+2026-06-30 14:53:40.464 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:40.677 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:40.883 | INFO     | app.services.auth_service:authenticate_user:38 - User logged in: asha@example.com
+2026-06-30 14:53:40.892 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:41.094 | INFO     | app.services.auth_service:register_user:27 - Registered new user: asha@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:41.301 | WARNING  | app.services.auth_service:authenticate_user:35 - Failed login attempt for email: asha@example.com
+2026-06-30 14:53:41.302 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/auth/login: Invalid email or password.
+2026-06-30 14:53:41.310 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:41.322 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:41.543 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:41.561 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:41.780 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:41.861 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:42.085 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:53:42.092 | INFO     | app.services.alert_service:generate_alerts_for_active_hotspots:60 - Generated 0 municipality alert(s) from 0 high-risk hotspots.
+2026-06-30 14:53:42.104 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:42.305 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:42.321 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:42.530 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:42.730 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:53:42.742 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092342_49f4ca43b2.jpg (690 bytes)
+2026-06-30 14:53:42.744 | WARNING  | app.ai.yolo_detector:_load_model:24 - YOLOv8 weights not found at 'ml\pollution_yolov8.pt'. Running pollution detector in MOCK MODE - see app/ai/yolo_detector.py.
+2026-06-30 14:53:42.747 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092342_49f4ca43b2.jpg
+2026-06-30 14:53:42.752 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.59 confidence, mock=True)
+2026-06-30 14:53:42.760 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092342_3855befc96.jpg (690 bytes)
+2026-06-30 14:53:42.762 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092342_3855befc96.jpg
+2026-06-30 14:53:42.764 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: dust (0.79 confidence, mock=True)
+2026-06-30 14:53:42.770 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092342_51793c2fa9.jpg (690 bytes)
+2026-06-30 14:53:42.773 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092342_51793c2fa9.jpg
+2026-06-30 14:53:42.776 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: smoke (0.73 confidence, mock=True)
+2026-06-30 14:53:42.783 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092342_28c80fd528.jpg (690 bytes)
+2026-06-30 14:53:42.786 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092342_28c80fd528.jpg
+2026-06-30 14:53:42.788 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: construction_dust (0.79 confidence, mock=True)
+2026-06-30 14:53:42.795 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-06-30 14:53:42.800 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-06-30 14:53:42.811 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:43.036 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:43.259 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:53:43.265 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092343_97d95bd576.jpg (690 bytes)
+2026-06-30 14:53:43.267 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092343_97d95bd576.jpg
+2026-06-30 14:53:43.270 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.87 confidence, mock=True)
+2026-06-30 14:53:43.276 | INFO     | app.ai.hotspot_detector:detect_hotspots:74 - Not enough reports (1) to form a hotspot (need >= 3).
+2026-06-30 14:53:43.278 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 0 hotspot(s) from 1 reports in last 14d.
+2026-06-30 14:53:43.290 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:43.491 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:43.696 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:53:43.704 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092343_3b5cc1344a.jpg (690 bytes)
+2026-06-30 14:53:43.707 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092343_3b5cc1344a.jpg
+2026-06-30 14:53:43.711 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.58 confidence, mock=True)
+2026-06-30 14:53:43.718 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092343_09cc28e519.jpg (690 bytes)
+2026-06-30 14:53:43.720 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092343_09cc28e519.jpg
+2026-06-30 14:53:43.722 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #2 by user 1: smoke (0.76 confidence, mock=True)
+2026-06-30 14:53:43.728 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092343_a4bcbd979a.jpg (690 bytes)
+2026-06-30 14:53:43.731 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092343_a4bcbd979a.jpg
+2026-06-30 14:53:43.732 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #3 by user 1: construction_dust (0.89 confidence, mock=True)
+2026-06-30 14:53:43.741 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092343_4c23e14611.jpg (690 bytes)
+2026-06-30 14:53:43.745 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092343_4c23e14611.jpg
+2026-06-30 14:53:43.749 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #4 by user 1: smoke (0.74 confidence, mock=True)
+2026-06-30 14:53:43.763 | INFO     | app.ai.hotspot_detector:detect_hotspots:103 - DBSCAN found 1 hotspot(s) from 4 reports.
+2026-06-30 14:53:43.770 | INFO     | app.services.hotspot_service:generate_hotspots:72 - Generated 1 hotspot(s) from 4 reports in last 14d.
+2026-06-30 14:53:43.788 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:43.997 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:44.002 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-06-30 14:53:44.004 | WARNING  | app.ai.aqi_predictor:_load_model:31 - AQI model not found at 'ml\model.pkl'. Run `python ml/train.py` to train one. Falling back to heuristic mock prediction.
+2026-06-30 14:53:44.010 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=156.5 (risk=moderate) for (22.5726, 88.3639)
+2026-06-30 14:53:44.021 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:44.035 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:44.248 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:44.264 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:44.469 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:44.473 | WARNING  | app.services.weather_service:fetch_current_air_quality:25 - OPENWEATHER_API_KEY not set - returning mock air quality data.
+2026-06-30 14:53:44.478 | INFO     | app.services.prediction_service:predict_for_location:46 - Predicted AQI=145.0 (risk=moderate) for (22.5726, 88.3639)
+2026-06-30 14:53:44.495 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:44.710 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:44.720 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092344_15ed61b36f.jpg (690 bytes)
+2026-06-30 14:53:44.732 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092344_15ed61b36f.jpg
+2026-06-30 14:53:44.739 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.68 confidence, mock=True)
+2026-06-30 14:53:44.757 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:44.962 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:44.967 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on POST /api/v1/reports/upload: Unsupported file type 'text/plain'. Allowed types: image/jpeg, image/png, image/webp.
+2026-06-30 14:53:44.976 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:44.999 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:45.204 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:45.209 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092345_8065ce246d.jpg (690 bytes)
+2026-06-30 14:53:45.211 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092345_8065ce246d.jpg
+2026-06-30 14:53:45.215 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.78 confidence, mock=True)
+2026-06-30 14:53:45.232 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:45.455 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:45.464 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092345_ce93c2adb6.jpg (690 bytes)
+2026-06-30 14:53:45.467 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092345_ce93c2adb6.jpg
+2026-06-30 14:53:45.472 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: dust (0.82 confidence, mock=True)
+2026-06-30 14:53:45.504 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:45.709 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:45.714 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/99999: Report 99999 not found.
+2026-06-30 14:53:45.724 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:45.938 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:45.944 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092345_79790a7dbb.jpg (690 bytes)
+2026-06-30 14:53:45.946 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092345_79790a7dbb.jpg
+2026-06-30 14:53:45.952 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: construction_dust (0.74 confidence, mock=True)
+2026-06-30 14:53:45.964 | INFO     | app.services.report_service:delete_report:125 - Deleted report #1 by user 1
+2026-06-30 14:53:45.971 | WARNING  | app.main:domain_validation_exception_handler:54 - ValidationError on GET /api/v1/reports/1: Report 1 not found.
+2026-06-30 14:53:45.981 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:46.187 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:46.391 | INFO     | app.services.auth_service:register_user:27 - Registered new user: admin@example.com (role=UserRole.MUNICIPALITY_ADMIN)
+2026-06-30 14:53:46.397 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092346_2c36ae5dcc.jpg (690 bytes)
+2026-06-30 14:53:46.401 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092346_2c36ae5dcc.jpg
+2026-06-30 14:53:46.405 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: smoke (0.81 confidence, mock=True)
+2026-06-30 14:53:46.416 | INFO     | app.services.report_service:update_report_status:133 - Report #1 status updated to verified
+2026-06-30 14:53:46.426 | INFO     | app.main:on_startup:91 - EcoVision AI starting up in 'development' mode.
+2026-06-30 14:53:46.626 | INFO     | app.services.auth_service:register_user:27 - Registered new user: citizen@example.com (role=UserRole.CITIZEN)
+2026-06-30 14:53:46.632 | INFO     | app.services.upload_service:save_uploaded_image:34 - Saved uploaded image to app\uploads\original\20260630092346_ef9bb55683.jpg (690 bytes)
+2026-06-30 14:53:46.633 | DEBUG    | app.ai.image_preprocessing:save_image:70 - Saved processed image to app\uploads\processed\20260630092346_ef9bb55683.jpg
+2026-06-30 14:53:46.637 | INFO     | app.services.report_service:create_report_with_detection:71 - Created report #1 by user 1: industrial_smoke (0.57 confidence, mock=True)
