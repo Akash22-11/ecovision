@@ -15,7 +15,6 @@ class ReportCreateRequest(BaseModel):
     )
     description: str | None = Field(default=None, max_length=2000)
 
-
 class DetectionResult(BaseModel):
     """AI detection result returned alongside a created report."""
 
