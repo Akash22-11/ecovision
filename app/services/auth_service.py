@@ -27,7 +27,6 @@ def register_user(db: Session, payload: UserRegisterRequest) -> User:
     logger.info(f"Registered new user: {user.email} (role={user.role})")
     return user
 
-
 def authenticate_user(db: Session, payload: UserLoginRequest) -> User:
     """Validate credentials and return the User. Raises ValidationError on failure."""
     user = db.query(User).filter(User.email == payload.email).first()
@@ -37,7 +36,6 @@ def authenticate_user(db: Session, payload: UserLoginRequest) -> User:
 
     logger.info(f"User logged in: {user.email}")
     return user
-
 
 def build_token_for_user(user: User) -> str:
     """Issue a JWT access token for an authenticated user."""
