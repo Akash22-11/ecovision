@@ -1,9 +1,7 @@
 """Pydantic schemas for the AQI Prediction feature."""
 
 from datetime import datetime
-
 from pydantic import BaseModel, ConfigDict, Field
-
 from app.utils.constants import RiskLevel
 
 
