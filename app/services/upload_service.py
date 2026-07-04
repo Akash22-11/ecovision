@@ -13,11 +13,7 @@ MAX_READ_CHUNK = 1024 * 1024  # 1 MB
 
 
 async def save_uploaded_image(file: UploadFile) -> str:
-    """
-    Validate and persist an uploaded image to the "original" uploads directory.
-
-    Returns:
-        The path the file was saved to (relative to the project root).
+    The path the file was saved to (relative to the project root).
     """
     contents = await file.read()
     validate_image_upload(file, size_bytes=len(contents))
