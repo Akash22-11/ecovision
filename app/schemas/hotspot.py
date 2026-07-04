@@ -6,7 +6,6 @@ from pydantic import BaseModel, ConfigDict
 
 from app.utils.constants import HotspotStatus
 
-
 class HotspotResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
