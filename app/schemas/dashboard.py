@@ -1,7 +1,6 @@
 """Pydantic schemas for the Dashboard and Interactive Pollution Map features."""
 
 from datetime import date, datetime
-
 from pydantic import BaseModel
 from app.utils.constants import PollutionType, SeverityLevel
 
