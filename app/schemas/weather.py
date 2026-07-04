@@ -1,7 +1,6 @@
 """Pydantic schemas for the Air Quality Integration feature."""
 from pydantic import BaseModel, Field
 
-
 class CurrentAirQualityResponse(BaseModel):
     latitude: float
     longitude: float
