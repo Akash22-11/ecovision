@@ -24,12 +24,11 @@ async def save_uploaded_image(file: UploadFile) -> str:
     destination_path = destination_dir / filename
 
     with open(destination_path, "wb") as out_file:
-        out_file.write(contents)
+         out_file.write(contents)
 
     await file.seek(0)
     logger.info(f"Saved uploaded image to {destination_path} ({len(contents)} bytes)")
     return str(destination_path)
-
 
 def processed_image_path_for(original_path: str) -> str:
     """Compute the destination path for the YOLO-annotated version of an image."""
