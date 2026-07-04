@@ -46,6 +46,7 @@ class MapMarker(BaseModel):
     created_at: datetime
 
 
+
 class DashboardMapResponse(BaseModel):
     markers: list[MapMarker]
     total: int
