@@ -1,9 +1,7 @@
 """Pydantic schemas for pollution report creation, responses, and filters."""
 
 from datetime import date, datetime
-
 from pydantic import BaseModel, ConfigDict, Field
-
 from app.utils.constants import PollutionType, ReportStatus, SeverityLevel
 
 
