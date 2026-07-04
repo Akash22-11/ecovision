@@ -14,11 +14,7 @@ def get_map_markers(
     start_date: date | None = None,
     end_date: date | None = None,
 ) -> list[dict]:
-    """
-    Build map marker payloads, applying the same filters as the report list
-    endpoint (type / severity / date). Color-coding by severity is left to
-    the frontend, which receives the `severity` field per marker.
-    """
+   
     reports = list_reports(
         db,
         pollution_type=pollution_type,
