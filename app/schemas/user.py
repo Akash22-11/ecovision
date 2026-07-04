@@ -4,7 +4,6 @@ from datetime import datetime
 from pydantic import BaseModel, ConfigDict, EmailStr, Field
 from app.utils.constants import UserRole
 
-
 class UserRegisterRequest(BaseModel):
     name: str = Field(..., min_length=2, max_length=120, examples=["Asha Rao"])
     email: EmailStr = Field(..., examples=["asha@example.com"])
@@ -25,7 +24,6 @@ class UserResponse(BaseModel):
     email: EmailStr
     role: UserRole
     created_at: datetime
-
 
 class TokenResponse(BaseModel):
     access_token: str
