@@ -1,9 +1,7 @@
 """Map service: builds marker payloads for the Interactive Pollution Map feature."""
 
 from datetime import date
-
 from sqlalchemy.orm import Session
-
 from app.services.report_service import list_reports
 from app.utils.constants import PollutionType, ReportStatus, SeverityLevel
 
