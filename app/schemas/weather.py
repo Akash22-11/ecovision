@@ -1,5 +1,4 @@
 """Pydantic schemas for the Air Quality Integration feature."""
-
 from pydantic import BaseModel, Field
 
 
