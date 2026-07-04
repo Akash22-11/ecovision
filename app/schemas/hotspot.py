@@ -3,7 +3,6 @@
 from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict
-
 from app.utils.constants import HotspotStatus
 
 class HotspotResponse(BaseModel):
