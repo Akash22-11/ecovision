@@ -2,7 +2,7 @@
 
 import os
 
-from fastapi import APIRouter, Depends, Response, status
+from fastapi import APIRouter, Depends, Response, statusa
 from sqlalchemy.orm import Session
 
 from app.database import get_db
@@ -24,18 +24,21 @@ def _set_auth_cookie(response: Response, token: str) -> None:
         value=f"Bearer {token}",
         httponly=True,
         max_age=COOKIE_MAX_AGE,
-        samesite="lax",
-        secure=COOKIE_SECURE,
+        samesite="none",
+        secure=True,
     )
 
 
-@router.post(
-    "/register",
-    response_model=TokenResponse,
-    status_code=status.HTTP_201_CREATED,
-    summary="Register a new citizen or municipality admin account",
-    description="Creates a new user account and immediately returns a JWT access token.",
-)
+@router.post("/logout", status_code=status.HTTP_200_OK, summary="Log out and clear the auth cookie")
+def logout(response: Response) -> dict:
+    response.delete_cookie(
+        key=COOKIE_NAME,
+        httponly=True,
+        samesite="none",
+        secure=True,
+    )
+    return {"message": "Logged out"}
+    
 def register(payload: UserRegisterRequest, response: Response, db: Session = Depends(get_db)) -> TokenResponse:
     user = register_user(db, payload)
     token = build_token_for_user(user)
