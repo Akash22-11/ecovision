@@ -13,7 +13,7 @@ from jose import JWTError
 from pydantic import ValidationError as PydanticValidationError
 
 from app.config import settings
-from app.routes import auth, dashboard, hotspots, municipality, prediction, reports, weather
+from app.routes import auth, dashboard, hotspots, municipality, prediction, reports, weather, ai
 from app.utils.logger import logger
 from app.utils.validators import ValidationError
 
@@ -57,7 +57,7 @@ app.include_router(hotspots.router, prefix=API_PREFIX)
 app.include_router(prediction.router, prefix=API_PREFIX)
 app.include_router(dashboard.router, prefix=API_PREFIX)
 app.include_router(municipality.router, prefix=API_PREFIX)
-
+app.include_router(ai.router, prefix=API_PREFIX)
 
 # --- Global exception handlers ----------------------------------------------------
 
