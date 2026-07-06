@@ -10,22 +10,15 @@ class Settings(BaseSettings):
     API_V1_PREFIX: str = "/api/v1"
 
     # --- Security / JWT ---
-    SECRET_KEY: str  # required — must come from .env locally, Railway var in production
+    SECRET_KEY: str  # required — from .env locally, Render env var in production
     JWT_ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24
 
     # --- Database ---
-    DATABASE_URL: str  # required — must come from .env locally, Railway var in production
+    DATABASE_URL: str  # required — from .env locally, Render env var in production
 
-    # CORS_ORIGINS
-    CORS_ORIGINS: str = "http://localhost:3000,http://localhost:5173"
-
-@property
-def cors_origins_list(self) -> list:
-    return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
-    
     # --- CORS ---
-    CORS_ORIGINS: str = "*"
+    CORS_ORIGINS: str = "http://localhost:3000,http://localhost:5173"
 
     @property
     def cors_origins_list(self) -> list[str]:
