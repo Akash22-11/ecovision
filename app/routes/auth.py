@@ -1,4 +1,4 @@
-"""Authentication routes: registration, login, and profile retrieval."""
+"""Authentication routes: registration, login, logout, and profile retrieval."""
 
 import os
 
@@ -8,13 +8,25 @@ from sqlalchemy.orm import Session
 from app.database import get_db
 from app.dependencies import get_current_user
 from app.models.user import User
-from app.schemas.user import TokenResponse, UserLoginRequest, UserRegisterRequest, UserResponse
-from app.services.auth_service import authenticate_user, build_token_for_user, register_user
+from app.schemas.user import (
+    TokenResponse,
+    UserLoginRequest,
+    UserRegisterRequest,
+    UserResponse,
+)
+from app.services.auth_service import (
+    authenticate_user,
+    build_token_for_user,
+    register_user,
+)
 
-router = APIRouter(prefix="/auth", tags=["Authentication"])
+router = APIRouter(
+    prefix="/auth",
+    tags=["Authentication"],
+)
 
 COOKIE_NAME = "access_token"
-COOKIE_MAX_AGE = 3600  # seconds — keep in sync with your JWT expiry
+COOKIE_MAX_AGE = 3600  # Keep in sync with JWT expiry
 COOKIE_SECURE = os.getenv("ENVIRONMENT", "development") != "development"
 
 
@@ -25,54 +37,76 @@ def _set_auth_cookie(response: Response, token: str) -> None:
         httponly=True,
         max_age=COOKIE_MAX_AGE,
         samesite="none",
-        secure=True,
+        secure=COOKIE_SECURE,
     )
 
 
-@router.post("/logout", status_code=status.HTTP_200_OK, summary="Log out and clear the auth cookie")
-def logout(response: Response) -> dict:
-    response.delete_cookie(
-        key=COOKIE_NAME,
-        httponly=True,
-        samesite="none",
-        secure=True,
-    )
-    return {"message": "Logged out"}
-    
-def register(payload: UserRegisterRequest, response: Response, db: Session = Depends(get_db)) -> TokenResponse:
+@router.post(
+    "/register",
+    response_model=TokenResponse,
+    status_code=status.HTTP_201_CREATED,
+    summary="Register a new user",
+)
+def register(
+    payload: UserRegisterRequest,
+    response: Response,
+    db: Session = Depends(get_db),
+) -> TokenResponse:
     user = register_user(db, payload)
     token = build_token_for_user(user)
     _set_auth_cookie(response, token)
-    return TokenResponse(access_token=token, user=UserResponse.model_validate(user))
+
+    return TokenResponse(
+        access_token=token,
+        user=UserResponse.model_validate(user),
+    )
 
 
 @router.post(
     "/login",
     response_model=TokenResponse,
+    status_code=status.HTTP_200_OK,
     summary="Log in with email and password",
     description="Validates credentials and returns a JWT access token plus the user's profile.",
 )
-def login(payload: UserLoginRequest, response: Response, db: Session = Depends(get_db)) -> TokenResponse:
+def login(
+    payload: UserLoginRequest,
+    response: Response,
+    db: Session = Depends(get_db),
+) -> TokenResponse:
     user = authenticate_user(db, payload)
     token = build_token_for_user(user)
     _set_auth_cookie(response, token)
-    return TokenResponse(access_token=token, user=UserResponse.model_validate(user))
+
+    return TokenResponse(
+        access_token=token,
+        user=UserResponse.model_validate(user),
+    )
 
 
 @router.post(
     "/logout",
     status_code=status.HTTP_200_OK,
-    summary="Log out and clear the auth cookie",
+    summary="Log out and clear the authentication cookie",
 )
 def logout(response: Response) -> dict:
-    response.delete_cookie(COOKIE_NAME)
+    response.delete_cookie(
+        key=COOKIE_NAME,
+        httponly=True,
+        samesite="none",
+        secure=COOKIE_SECURE,
+    )
+
     return {"message": "Logged out"}
 
 
 @router.get(
     "/profile",
     response_model=UserResponse,
+    status_code=status.HTTP_200_OK,
     summary="Get the current authenticated user's profile",
 )
-def profile(current_user: User = Depends(get_current_user)) -> UserResponse:
+def profile(
+    current_user: User = Depends(get_current_user),
+) -> UserResponse:
     return UserResponse.model_validate(current_user)
