@@ -2,7 +2,7 @@
 
 import os
 
-from fastapi import APIRouter, Depends, Response, statusa
+from fastapi import APIRouter, Depends, Response, status
 from sqlalchemy.orm import Session
 
 from app.database import get_db
