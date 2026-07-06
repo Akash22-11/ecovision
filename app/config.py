@@ -17,6 +17,13 @@ class Settings(BaseSettings):
     # --- Database ---
     DATABASE_URL: str  # required — must come from .env locally, Railway var in production
 
+    # CORS_ORIGINS
+    CORS_ORIGINS: str = "http://localhost:3000,http://localhost:5173"
+
+@property
+def cors_origins_list(self) -> list:
+    return [o.strip() for o in self.CORS_ORIGINS.split(",") if o.strip()]
+    
     # --- CORS ---
     CORS_ORIGINS: str = "*"
 
