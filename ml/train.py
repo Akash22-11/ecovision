@@ -86,6 +86,7 @@ def train() -> None:
         X, y, test_size=0.2, random_state=RANDOM_SEED
     )
 
+    
     model = RandomForestRegressor(
         n_estimators=200,
         max_depth=12,
