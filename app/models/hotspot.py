@@ -1,4 +1,4 @@
-"""Hotspot model: DBSCAN-derived pollution clusters with risk scoring."""
+"""Hotspot model """
 
 from datetime import datetime, timezone
 ...
