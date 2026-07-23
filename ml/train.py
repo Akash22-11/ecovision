@@ -55,6 +55,7 @@ def generate_synthetic_dataset(n_rows: int = 2000) -> pd.DataFrame:
             "aqi_next_24h": aqi_next_24h,
         }
     )
+    
     return df.round(2)
 
 
