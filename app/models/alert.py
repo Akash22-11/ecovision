@@ -4,7 +4,6 @@ from datetime import datetime, timezone
 
 from sqlalchemy import DateTime, Enum, ForeignKey, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
-
 from app.database import Base
 from app.utils.constants import AlertStatus
 
@@ -22,6 +21,7 @@ class Alert(Base):
         Enum(AlertStatus, name="alert_status"), nullable=False, default=AlertStatus.PENDING
     )
 
+    
     created_at: Mapped[datetime] = mapped_column(DateTime, default=lambda: datetime.now(timezone.utc).replace(tzinfo=None), nullable=False, index=True)
 
     hotspot = relationship("Hotspot")
