@@ -38,7 +38,6 @@ def generate_synthetic_dataset(n_rows: int = 2000) -> pd.DataFrame:
     humidity_trap = np.where(humidity > 70, 8.0, 0.0)  # stagnant humid air traps pollution
     persistence = aqi * 0.55
 
-    
     noise = rng.normal(0, 10, n_rows)
     aqi_next_24h = np.clip(
         persistence + particulate_pressure * 0.3 - dispersion_relief + humidity_trap + noise, 0, 500
