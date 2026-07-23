@@ -100,6 +100,7 @@ def train() -> None:
     mae = mean_absolute_error(y_test, predictions)
     r2 = r2_score(y_test, predictions)
 
+    
     print("\n--- Training complete ---")
     print(f"Test MAE : {mae:.2f} AQI points")
     print(f"Test R^2 : {r2:.3f}")
@@ -109,6 +110,7 @@ def train() -> None:
     ):
         print(f"  {feature:<12} {importance:.3f}")
 
+    
     with open(MODEL_PATH, "wb") as f:
         pickle.dump(model, f)
     print(f"\nModel saved to {MODEL_PATH}")
