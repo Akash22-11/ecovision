@@ -23,6 +23,7 @@ def generate_synthetic_dataset(n_rows: int = 2000) -> pd.DataFrame:
     current conditions and next-24h AQI: particulates push AQI up, wind
     disperses it, with noise to keep the model honest.
     """
+    
     rng = np.random.default_rng(RANDOM_SEED)
 
     aqi = rng.uniform(30, 400, n_rows)
