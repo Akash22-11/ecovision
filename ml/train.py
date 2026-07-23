@@ -32,7 +32,7 @@ def generate_synthetic_dataset(n_rows: int = 2000) -> pd.DataFrame:
     humidity = rng.uniform(15, 95, n_rows)
     wind_speed = rng.uniform(0.2, 9.0, n_rows)
 
-    # Ground-truth generating function for the synthetic label.
+    
     particulate_pressure = pm25 * 0.5 + pm10 * 0.3
     dispersion_relief = wind_speed * 6.0
     humidity_trap = np.where(humidity > 70, 8.0, 0.0)  # stagnant humid air traps pollution
