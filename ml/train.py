@@ -17,7 +17,6 @@ TARGET_COLUMN = "aqi_next_24h"
 
 RANDOM_SEED = 42
 
-
 def generate_synthetic_dataset(n_rows: int = 2000) -> pd.DataFrame:
     """
     Generate a synthetic dataset with a realistic relationship between
