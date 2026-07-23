@@ -6,10 +6,8 @@ datetime.now(timezone.utc)
 
 from sqlalchemy import DateTime, Enum, Float, String
 from sqlalchemy.orm import Mapped, mapped_column
-
 from app.database import Base
 from app.utils.constants import RiskLevel
-
 
 class Prediction(Base):
     __tablename__ = "predictions"
