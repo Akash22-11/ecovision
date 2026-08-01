@@ -18,7 +18,7 @@ This backend service processes citizen-reported pollution incidents via geotagge
 *   **Admin Dashboard:** Aggregated totals, daily report tracking, active hotspot monitoring, current AQI, trend charts, and category/severity breakdowns.
 *   **Automated Alerts:** Rule-based recommended actions generated automatically from high-risk hotspots, complete with resolution tracking for municipal authorities.
 
----
+--- 
 
 ## 🛠️ Tech Stack
 
