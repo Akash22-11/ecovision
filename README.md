@@ -99,6 +99,7 @@ EcoVision is designed as a modular, asynchronous backend capable of handling geo
 * **Hotspots:** Centroid lat/lon, calculated radius, risk score, list of associated report IDs.
 * **Alerts:** Auto-generated action items tied to high-risk hotspots.
 * **Predictions:** Historical log of predicted AQI vs. actual AQI.
+
 ## 📂 Project Structure
 
 ```text
