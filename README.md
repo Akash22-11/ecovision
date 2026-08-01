@@ -33,7 +33,6 @@ This backend service processes citizen-reported pollution incidents via geotagge
 
 ---
 
-
 ---
 
 ## Contributing to EcoVision 🌍
