@@ -7,6 +7,7 @@ router = APIRouter(prefix="/ask", tags=["AI"])
 async def ask_ai(data: dict):
     prompt = data.get("prompt", "")
 
+    
     return {
         "success": True,
         "reply": f"You said: {prompt}"
