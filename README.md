@@ -62,6 +62,7 @@ Thank you for your interest in contributing to EcoVision! We are building a plat
    Before opening a Pull Request, ensure all tests pass.
    ```bash
    pytest -q
+
 ---
 
 
