@@ -1,6 +1,7 @@
 # EcoVision - Backend
 
 > **EcoVision** is an AI-powered pollution monitoring and prediction platform. 
+
 This backend service processes citizen-reported pollution incidents via geotagged photos. It utilizes a YOLOv8 detector to classify pollution types, DBSCAN to cluster reports into actionable geographic hotspots, and a Random Forest model to forecast the Air Quality Index (AQI) 24 hours ahead. Municipality administrators are empowered with a comprehensive dashboard, an interactive map, and auto-generated, recommendation-backed alerts to drive civic action.
 
 --- 
