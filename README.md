@@ -40,7 +40,7 @@ This backend service processes citizen-reported pollution incidents via geotagge
 Thank you for your interest in contributing to EcoVision! We are building a platform to empower citizens and municipalities to monitor and predict pollution. This guide outlines our development workflow.
 
 
-## 🛠️ Development Workflow
+## 🛠️ Development Workflow;
 
 1. **Branching Strategy:**
    Always create a new branch for your work. Do not commit directly to `main`.
