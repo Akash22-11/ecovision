@@ -20,7 +20,7 @@ This backend service processes citizen-reported pollution incidents via geotagge
 
 --- 
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack;
 
 | Category | Technologies |
 | :--- | :--- |
