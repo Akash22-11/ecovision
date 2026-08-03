@@ -62,7 +62,6 @@ Thank you for your interest in contributing to EcoVision! We are building a plat
 
 ---
 
-
 # EcoVision System Architecture 🏗️
 
 EcoVision is designed as a modular, asynchronous backend capable of handling geospatial data, image processing, and machine learning inference.
