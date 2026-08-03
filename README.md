@@ -6,7 +6,7 @@ This backend service processes citizen-reported pollution incidents via geotagge
 
 --- 
 
-## 🚀 Key Features
+## 🚀 Key Features;
 
 *   **User Management:** Registration and login for citizens and municipality admins, featuring JWT authentication and role-based access control.
 *   **Pollution Reporting:** Upload photos with GPS coordinates and timestamps. Includes category assignment, optional descriptions, and a status lifecycle (Pending → Verified → Resolved).
