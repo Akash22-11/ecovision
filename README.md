@@ -66,7 +66,6 @@ Thank you for your interest in contributing to EcoVision! We are building a plat
 
 EcoVision is designed as a modular, asynchronous backend capable of handling geospatial data, image processing, and machine learning inference.
 
-
 ## 🔄 System Flow
 
 1. **Data Ingestion (Citizen App):** 
