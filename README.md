@@ -30,7 +30,6 @@ This backend service processes citizen-reported pollution incidents via geotagge
 | **Security & Utilities** | JWT, Loguru, Pytest |
 | **DevOps** | Docker, Docker Compose |
 
-
 ---
 
 ---
