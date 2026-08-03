@@ -40,7 +40,6 @@ Thank you for your interest in contributing to EcoVision! We are building a plat
 
 ## 🛠️ Development Workflow;
 
-
 1. **Branching Strategy:**
    Always create a new branch for your work. Do not commit directly to `main`.
    * Feature: `feature/short-description` (e.g., `feature/map-clustering`)
